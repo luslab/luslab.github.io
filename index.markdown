@@ -6,4 +6,4 @@
 
 Look at us, aren't we adorable.
 
-![Lab photo](luslab.github.io/_images/lab-photo-edit.png "Lab photo")
+![Lab photo](_images/lab-photo-edit.png "Lab photo")
