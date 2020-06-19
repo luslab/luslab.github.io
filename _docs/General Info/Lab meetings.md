@@ -1,3 +1,8 @@
+---
+title: Lab meetings
+category: General Info
+order: 2
+---
 
 | Date | Presenting |
 |-|-|
