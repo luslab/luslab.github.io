@@ -7,10 +7,10 @@ order: 1
 
 # Checklist 
 
-- [ ] Google calendars
-- [ ] Github
+✅ :white_check_mark: Google calendars
+✅ :white_check_mark: Github
 
 ### Once you have a Crick email address:
 
-- [ ] Access to CAMP compute and storage
-- [ ] Slack
+✅ :white_check_mark: Access to CAMP compute and storage
+✅ :white_check_mark: Slack
