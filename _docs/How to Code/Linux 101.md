@@ -7,9 +7,21 @@ order: 3
 # Linux 101
 
 ## General
+
+### Basic commands
+- `cd <DIRECTORY>` - Change directory
+- `cd ..` - Go up one directory
+- `ls` - List. Lists all the files and folders contained in the current directory.
+- `mv <filepathsource> <filepathtarget>` - Renames/moves a file from source to target
+- `touch <newfile>` - Creates a new file without any content
+- `cat <newfile>` - Creates a file with content
+- `nano <file>` - Used to edit a text file
+
+
+### Other commands
 - `mkdir -p folder/subfolder` - Inculde creation of parent dir
 - `tail -f` - Monitor a log file
-- `ls -lah` - List files with better information
+- `ls -lah` - List files with detailed information
 - `du -h -d1` - List top level directory space usage
 - `srun --ntasks=1 --cpus-per-task=1 --partition=int --time=4:00:0 --mem=4G --pty /bin/bash` - Create interactive node on CAMP
 - `pwd` - Show current path
@@ -18,10 +30,25 @@ order: 3
 - `ln -s <source> <dest>` - Symbolic link
 - `find ./myfolder -mindepth 1 ! -regex '^./myfolder/test2\(/.*\)?' -delete` - this will delete all folders inside ./myfolder except that ./myfolder/test2 and all its contents will be preserved
 
+## Git
+- `git init` - Initialize a git repository for the working directory
+- `git branch` - Visualize the branches of the repository and which one is active
+- `git log` - Displays all the commits that were made for the current project
+- `git clone <URL>` - Locally clone a repository from github with the repo URL
+- `git add <file1>` or `git add <file1> <file2> <file3>` - Adds one or several files to the staging area
+- `git add .` - Adds all the files inside the project folder to the staging area
+- `git commit -m <'commit message'>` - Commits changes to the local branch
+- `git push` - Pushes commits to the remote branch
+- `git checkout <branch-name>` - Switches to this branch. Future commits will be made on the checked-out branch
+- `git checkout -b <new-branch-name>` - Creates new branch and change to it at the same time
+- `git merge <branch-name>` - Merges current branch into the specified branch.
+- `git branch -d <branch-name>` - Deletes the specified branch
+- `git submodule update --remote` - Updates a submodule to the latest commit
+
 ## Screen
 - `screen -S nextflow -m bash -c 'sh run.sh; exec sh'` - Run named screen session with wait command at end so window doesnt auto-close
 - `screen -ls` - List screens
-- `screen -r 344074` - Attatch to running screen with number before decimal point
+- `screen -r 344074` - Attach to running screen with number before decimal point
 - `screen -X -S [session # you want to kill] quit` - kill session
 - Screen `ctrl+a+d` detatch
 
@@ -30,7 +57,7 @@ order: 3
 
 ## Nextflow
 - `nextflow run <REPO>` - Runs pipeline from github
-- `nextflow run <REPO> -with-docker <CONTAINER>:<TAG>`
+- `nextflow run <REPO> -with-docker <CONTAINER>:<TAG>` - Runs pipeline from github with specified docker image
 - `nextflow pull <REPO>` - Updates repo from github
 - `nextflow run <SCRIPT> -w <WORKDIR>` - Specify work dir
 - `nextflow run <SCRIPT> -ansi-log false` - Change log to each task (good for debugging)
