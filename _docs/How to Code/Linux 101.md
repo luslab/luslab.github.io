@@ -31,19 +31,20 @@ order: 3
 - `find ./myfolder -mindepth 1 ! -regex '^./myfolder/test2\(/.*\)?' -delete` - this will delete all folders inside ./myfolder except that ./myfolder/test2 and all its contents will be preserved
 
 ## Git
-- `git init` - Initialize a git repository for the working directory
-- `git branch` - Visualize the branches of the repository and which one is active
-- `git log` - Displays all the commits that were made for the current project
-- `git clone <URL>` - Locally clone a repository from github with the repo URL
 - `git add <file1>` or `git add <file1> <file2> <file3>` - Adds one or several files to the staging area
 - `git add .` - Adds all the files inside the project folder to the staging area
-- `git commit -m <'commit message'>` - Commits changes to the local branch
-- `git push` - Pushes commits to the remote branch
+- `git branch` - Visualize the branches of the repository and which one is active
+- `git branch -d <branch-name>` - Deletes the specified branch
 - `git checkout <branch-name>` - Switches to this branch. Future commits will be made on the checked-out branch
 - `git checkout -b <new-branch-name>` - Creates new branch and change to it at the same time
+- `git clone <URL>` - Locally clone a repository from github with the repo URL
+- `git commit -m <'commit message'>` - Commits changes to the local branch
+- `git init` - Initialize a git repository for the working directory
+- `git log` - Displays all the commits that were made for the current project
 - `git merge <branch-name>` - Merges current branch into the specified branch.
-- `git branch -d <branch-name>` - Deletes the specified branch
+- `git push` - Pushes commits to the remote branch
 - `git submodule update --remote` - Updates a submodule to the latest commit
+
 
 ## Screen
 - `screen -S nextflow -m bash -c 'sh run.sh; exec sh'` - Run named screen session with wait command at end so window doesnt auto-close
