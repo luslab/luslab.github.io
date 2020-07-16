@@ -1,7 +1,7 @@
 ---
 title: Git
 category: Version Control
-order: 2
+order: 1
 ---
 
 # What is Git?
