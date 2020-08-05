@@ -4,8 +4,6 @@ category: How-to's
 order: 1
 ---
 
-# Delete All files/folders except one folder in a directory
-
 This will delete all folders inside ./myfolder except that ./myfolder/test2 and all its contents will be preserved:
 
 ```
