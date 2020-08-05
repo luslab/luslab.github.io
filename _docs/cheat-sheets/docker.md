@@ -4,20 +4,20 @@ category: Cheat Sheets
 order: 5
 ---
 
-# Build
+## Build
 
 - `docker build -t <CONTAINER>:<TAG> <FOLDER CONTAINING DOCKERFILE>` -- build new image from docker file
 
-# Run
+## Run
 
 - `docker run -it --rm <CONTAINER>:<TAG> /bin/bash` -- Run a container with an interactive shell
 
-# Share
+## Share
 
 - `docker pull <CONTAINER>:<TAG>` -- Pulls image from docker hub to local repo
 - `docker push <CONTAINER>:<TAG>` -- Pushes local image to docker hub
 
-# Maintain
+## Maintain
 
 - `docker images` -- View local images
 - `docker system prune` -- Docker provides a single command that will clean up any resources — images, containers, volumes, and networks — that are dangling (not associated with a container)
