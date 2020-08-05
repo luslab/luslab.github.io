@@ -1,6 +1,6 @@
 ---
 title: Git & Github
-category: Cheat Sheets
+category: 2 - Cheat Sheets
 order: 3
 ---
 
