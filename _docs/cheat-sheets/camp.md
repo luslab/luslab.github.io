@@ -1,7 +1,7 @@
 ---
 title: CAMP 101
-category: How to Code
-order: 3
+category: Cheat Sheets
+order: 4
 ---
 
 Write stuff here.

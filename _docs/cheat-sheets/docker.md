@@ -1,7 +1,7 @@
 ---
 title: Docker
-category: How to Code
-order: 1
+category: Cheat Sheets
+order: 5
 ---
 
 Write stuff here.

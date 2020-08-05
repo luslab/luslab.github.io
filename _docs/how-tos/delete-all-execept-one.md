@@ -1,7 +1,7 @@
 ---
 title: Delete All files/folders except one folder in a directory
-category: Linux
-order: 2
+category: How-to's
+order: 1
 ---
 
 # Delete All files/folders except one folder in a directory

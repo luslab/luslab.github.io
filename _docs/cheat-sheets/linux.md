@@ -1,7 +1,7 @@
 ---
-title: Linux 101
-category: How to Code
-order: 3
+title: Linux
+category: Cheat Sheets
+order: 2
 ---
 
 # Linux 101
