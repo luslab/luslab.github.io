@@ -1,5 +1,5 @@
 ---
-title: CAMP 101
+title: CAMP
 category: Cheat Sheets
 order: 4
 ---
