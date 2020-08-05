@@ -1,6 +1,6 @@
 ---
 title: Git
-category: 4 - Version Control
+category: Version Control
 order: 1
 ---
 

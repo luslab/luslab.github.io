@@ -1,6 +1,6 @@
 ---
 title: Delete All files/folders except one folder in a directory
-category: 3 - How-to's
+category: How-to's
 order: 1
 ---
 

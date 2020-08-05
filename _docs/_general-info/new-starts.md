@@ -1,6 +1,6 @@
 ---
 title: New Starts
-category: 1 - General Info
+category: General Info
 order: 1
 ---
 

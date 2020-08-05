@@ -1,6 +1,6 @@
 ---
 title: Bash
-category: 2 - Cheat Sheets
+category: Cheat Sheets
 order: 1
 ---
 

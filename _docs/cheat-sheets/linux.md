@@ -1,6 +1,6 @@
 ---
 title: Linux
-category: 2 - Cheat Sheets
+category: Cheat Sheets
 order: 2
 ---
 

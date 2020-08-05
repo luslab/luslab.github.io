@@ -1,6 +1,6 @@
 ---
 title: Lab meetings
-category: 1 - General Info
+category: General Info
 order: 2
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Nextflow
-category: 2 - Cheat Sheets
+category: Cheat Sheets
 order: 6
 ---
 

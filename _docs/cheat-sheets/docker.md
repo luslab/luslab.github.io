@@ -1,6 +1,6 @@
 ---
 title: Docker
-category: 2 - Cheat Sheets
+category: Cheat Sheets
 order: 5
 ---
 

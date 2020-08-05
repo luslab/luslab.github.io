@@ -1,6 +1,6 @@
 ---
 title: CAMP 101
-category: 2 - Cheat Sheets
+category: Cheat Sheets
 order: 4
 ---
 
