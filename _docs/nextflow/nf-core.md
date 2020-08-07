@@ -5,10 +5,10 @@ and other data.
 
 If you need to process a specific kind of bioinformatical data or do a particular kind of analysis, please check the [available nf-core pipelines](https://nf-co.re/pipelines). Please, also check out the following resources to get up and running with nf-core:
 
-1. [nf-core: The official website](https://nf-co.re)
-2. [nf-core: Available pipelines](https://nf-co.re/pipelines)
-3. [nf-core: Getting started](https://nf-co.re/usage/introduction)
-4. [nf-core: Tutorial](https://nf-co.re/usage/nf_core_tutorial)
+1. [The official website](https://nf-co.re)
+2. [Available pipelines](https://nf-co.re/pipelines)
+3. [Getting started](https://nf-co.re/usage/introduction)
+4. [Tutorial](https://nf-co.re/usage/nf_core_tutorial)
 
 You can get help and learn the latest news about nf-core in the `nf-core` Slack workspace (you can join it [here](https://nf-co.re/join)). Make sure you join the channel dedicated to a pipeline that you are going to use (for example, `chipseq` or `atacseq`). Channels `help` and `training` can also be very useful!
 
