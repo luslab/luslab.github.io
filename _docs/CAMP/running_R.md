@@ -1,7 +1,7 @@
 ---
 title: CAMP
 category: Running R on CAMP
-order: 2
+order: 4
 ---
 
 <blockquote>
