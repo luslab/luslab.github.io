@@ -1,7 +1,7 @@
 ---
 title: Git
-category: Version Control
-order: 1
+category: Reproducibility
+order: 2
 ---
 
 # What is Git?
