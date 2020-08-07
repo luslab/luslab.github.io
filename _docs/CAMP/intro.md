@@ -1,6 +1,6 @@
 ---
-title: CAMP
-category: Intro
+title: Intro
+category: CAMP
 order: 4
 ---
 
