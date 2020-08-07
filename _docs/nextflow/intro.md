@@ -15,7 +15,7 @@ We use Nextflow for:
 
 If you need a pipeline to process a particular type of data, please check [our nf-core wiki page](...) first. 
 
-If there is no pipeline for your data in the nf-core collection, or you are setting up your own project, then you will need to right some Nextflow code! 
+If there is no pipeline for your data in the nf-core collection, or you are setting up your own project (and hence need to organise your data processing in a reproducible way), then you will need to right some Nextflow code! 
 
 **Please make sure you use the DSL2 syntax when conding in Nextflow!**
 
