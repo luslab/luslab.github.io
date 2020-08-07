@@ -14,4 +14,6 @@ You can get help and learn the latest news about nf-core in the `nf-core` Slack 
 
 Apart from ready-to-use pipelines, nf-core has a growing collection of modules - wrapped bioinformatical tools ready to import into an nf-core pipeline. As of August, 2020, this collection is still under construction, but should get more stable in the near future. Here you can find the [repository of the nf-core modules](https://github.com/nf-core/modules). 
 
+On our [wiki page about building Nextflow pipelines](...) you can find more information on how to use nf-core and other modules.
+
 If you are thinking about developing a new pipeline for a particular data type that could be incorporated into nf-core in the future, please make sure to join the `new-pipelines` channel in the nf-core Slack workspace and ask there if it is a good idea (someone may be planning to do the same kind of a pipeline, or an existing pipeline may cover the functionality that you want to implement).
