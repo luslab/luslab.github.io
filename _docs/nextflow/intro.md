@@ -4,8 +4,6 @@ category: Nextflow
 order: 1
 ---
 
-# What is Nextflow?
-
 **Nextflow** is a language for pipeline development that became a standard in our lab.
 
 We use Nextflow for:
@@ -13,15 +11,13 @@ We use Nextflow for:
  - Developing pipelines to process a particular type (or types) of data (for example, various CLIP datasets).
  - Make our computational projects reproducible.
 
-If you need a pipeline to process a particular type of data, please check [pipelines from the nf-core project](https://nf-co.re/pipelines) first. 
-This is an international collaboration aimed at development of gold-standard Nextflow pipelines for processing of different types of bioinformatical 
-and similar data. You can read more about nf-core initiative on the [nf-core page of our wiki](https://github.com/luslab/luslab.github.io/blob/master/_docs/nextflow/nf-core.md) and [on their official website](https://nf-co.re/).
+If you need a pipeline to process a particular type of data, please check [our nf-core wiki page](../nf-core) first. 
 
-If there is no pipeline for your data in the nf-core collection, or you are setting up your own project, then you will need to right some Nextflow code! 
+If there is no pipeline for your data in the nf-core collection, or you are setting up your own project (and hence need to organise your data processing in a reproducible way), then you will need to right some Nextflow code! 
 
 **Please make sure you use the DSL2 syntax when conding in Nextflow!**
 
-See [this wiki page](...) on how to run Nextflow on CAMP.
+See [our wiki page on how to run Nextflow on CAMP](../../CAMP/running_nextflow).
 
 Please check out the following resources to get up and running with Nextflow: 
 
