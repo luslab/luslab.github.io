@@ -1,7 +1,7 @@
 ---
 title: How to build a Nextflow pipeline?
 category: Nextflow
-order: 2
+order: 3
 ---
 
 ...
