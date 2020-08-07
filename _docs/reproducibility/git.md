@@ -4,11 +4,19 @@ category: Reproducibility
 order: 2
 ---
 
-# What is Git?
+## What is Git
 
-placeholder
+Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
 
-# git submodules
+More resources on git and version control can be found here:
+
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+- [A step-by-step guide to Git](https://opensource.com/article/18/1/step-step-guide-git)
+- [Getting Started - What is Git?](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
+
+## Git functions
+
+### Submodules
 
 Submodules allow you to include or embed one or more repositories as a sub-folder inside another repository.
 
