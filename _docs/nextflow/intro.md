@@ -4,8 +4,6 @@ category: Nextflow
 order: 1
 ---
 
-# What is Nextflow?
-
 **Nextflow** is a language for pipeline development that became a standard in our lab.
 
 We use Nextflow for:
