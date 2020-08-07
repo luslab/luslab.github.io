@@ -1,7 +1,7 @@
 ---
 title: Intro
 category: CAMP
-order: 4
+order: 1
 ---
 
 ## Introduction to CAMP
