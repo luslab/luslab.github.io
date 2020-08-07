@@ -24,6 +24,7 @@ Please check out the following resources to get up and running with Nextflow:
  1. [Nextflow overall documentation](https://www.nextflow.io/docs/latest/index.html)
  2. [Nextflow DSL2 documentation](https://www.nextflow.io/docs/latest/dsl2.html)
  3. [Nextflow coding patterns](https://nextflow-io.github.io/patterns/index.html)
+ 4. [Nextflow blog](https://www.nextflow.io/blog.html)
  
 You can get help regarding Nextflow here:
 
