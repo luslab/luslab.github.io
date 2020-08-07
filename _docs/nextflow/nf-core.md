@@ -1,4 +1,8 @@
-# What is nf-core?
+---
+title: nf-core
+category: Nextflow
+order: 2
+---
 
 **nf-core** is an international initiative aimed at development of gold-standard Nextflow pipelines to process different types of bioinformatical 
 and other data. 
