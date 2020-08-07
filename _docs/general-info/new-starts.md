@@ -7,9 +7,9 @@ order: 1
 
 # Checklist 
 
-✅ Google calendars
+✅ Google calendars 
 
-✅ Github
+✅ LusLab Github link: https://github.com/luslab/luslab.github.io
 
 ### Once you have a Crick email address:
 
