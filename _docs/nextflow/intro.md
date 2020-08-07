@@ -15,7 +15,7 @@ We use Nextflow for:
 
 If you need a pipeline to process a particular type of data, please check [pipelines from the nf-core project](https://nf-co.re/pipelines) first. 
 This is an international collaboration aimed at development of gold-standard Nextflow pipelines for processing of different types of bioinformatical 
-and similar data. You can read more about nf-core initiative [here](https://nf-co.re/) and on the [nf-core page of our wiki](https://github.com/luslab/luslab.github.io/blob/master/_docs/nextflow/nf-core.md).
+and similar data. You can read more about nf-core initiative on the [nf-core page of our wiki](https://github.com/luslab/luslab.github.io/blob/master/_docs/nextflow/nf-core.md) and [on their official website](https://nf-co.re/).
 
 If there is no pipeline for your data in the nf-core collection, or you are setting up your own project, then you will need to right some Nextflow code! 
 
