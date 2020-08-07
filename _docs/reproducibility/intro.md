@@ -16,7 +16,7 @@ More resources on the reproducibility crisis can be found here:
 
 ## Luslab data analysis and software
 
-![reproducibility_workflow](images/reproducibility_workflow.jpg)
+![reproducibility_workflow](../../images/reproducibility_workflow.jpg)
 
 The diagram above shows the three tennets of reproducibility for data pipelines and software in luslab: Reproducibility, Portability and Robustness. Lab members should have this structure in their mind when designing both data analysis pipelines and software to ensure maximum quality and chance of someone else replicating your work.
 
