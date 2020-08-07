@@ -17,7 +17,7 @@ If there is no pipeline for your data in the nf-core collection, or you are sett
 
 **Please make sure you use the DSL2 syntax when conding in Nextflow!**
 
-See [this wiki page](...) on how to run Nextflow on CAMP.
+See [our wiki page on how to run Nextflow on CAMP](...).
 
 Please check out the following resources to get up and running with Nextflow: 
 
