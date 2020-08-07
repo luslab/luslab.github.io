@@ -16,7 +16,7 @@ If you need to process a specific kind of bioinformatical data or do a particula
 
 You can get help and learn the latest news about nf-core in the `nf-core` Slack workspace (you can join it [here](https://nf-co.re/join)). Make sure you join the channel dedicated to a pipeline that you are going to use (for example, `chipseq` or `atacseq`). Channels `help` and `training` can also be very useful!
 
-Apart from ready-to-use pipelines, nf-core has a growing collection of modules - wrapped bioinformatical tools ready to import into an nf-core pipeline. As of August, 2020, this collection is still under construction, but should get more stable in the near future. Here you can find the [repository of the nf-core modules](https://github.com/nf-core/modules). 
+Apart from ready-to-use pipelines, nf-core has a growing collection of **modules** - wrapped bioinformatical tools ready to import into a Nextflow pipeline. As of August, 2020, this collection is still under construction, but should get more stable in the near future. Here you can find the [repository of the nf-core modules](https://github.com/nf-core/modules). 
 
 On our [wiki page about building Nextflow pipelines](../how_to_build_a_pipeline) you can find more information on how to use nf-core and other modules.
 
