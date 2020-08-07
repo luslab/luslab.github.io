@@ -49,3 +49,26 @@ You can log on to CAMP via ssh, we have access to two login nodes - login000 and
 Once you logon you'll find yourself in a directory with very little space, where you will not want to save anything.
 Most people will symbolically link their working directory to this directory so they can easily go there when they log on.
 
+### Directory structure on CAMP
+
+The base directory is /camp/. From there you will mostly be using /camp/lab/luscomben/home/. Other labs have their own folders in the "lab" directory. If you find yourself working with another lab a lot, you might consider asking for a project directory between the two labs, this should simplify sharing because both labs should then have access to the directory. e.g we have a shared directory with the Jernej Ule lab at /camp/project/proj-luscombe-ule.
+
+From /camp/lab/luscomben/home/ there are two main directories: shared and users. Everyone has their own personal folder on users and this what I mean when I refer to the "working directory". The shared folder contains data that we all have access to and so we like to keep this tidy. We ask that whenever someone finds themselves downloading a resource file, such as a genome, an annotation .etc that they try and add this to the shared folder so that we can save duplicating large files in our personal directories.
+
+The structure of the shared folder is:
+
+```
+/camp/lab/luscomben/home/shared
+├── archive
+|   └── folder structures that have been archived, so we can easily see in case we want to get things back
+├── legacy
+|   └── murky secrets from the lab's dark past, best left alone
+├── projects
+|   └── if you have within lab projects you might consider making a shared directory here, for multi-lab projects best to ask for a project folder
+├── ref
+    └── genomes
+        └── human
+        └── mouse
+        └── yeast
+        └── etc
+```
