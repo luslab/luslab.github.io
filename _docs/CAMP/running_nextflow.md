@@ -24,7 +24,7 @@ In this example, we first remove all pre-installed modules that could have been 
 
 Next, we execute the command `nextflow run path/to/pipeline_main.nf` which starts the pipeline described in the `path/to/pipeline_main.nf` Nextflow script and provide necessary parameters to Nextflow (one dash) and to the pipeline itself (double dash).
 
-You also need to make sure that the Crick-specific Nextflow config is located in the same directory as the pipeline script (`` in our example above).
+You also need to make sure that the [Crick-specific config file for Nextflow](https://github.com/luslab/luslab-nf-modules/blob/master/configs/crick.config) is located in the same directory as the pipeline script (the directory `path/to/` in our example above).
 
 To run an nf-core pipeline on CAMP, you need the same kind of bash wrapper, but instead of a path to a Nextflow script, you need to provide the name of the pipeline (it will be downloaded by Nextflow automatically):
 
@@ -47,4 +47,8 @@ nextflow run nf-core/chipseq \
     -resume
 ```
 
-In this example, the name of the pipeline is `nf-core/chipseq`, and we run its version `1.0.0`. To find out about possible Nextflow and pipeline-specific options that you can use when running an nf-core pipeline, please, see the [nf-core documentation](https://nf-co.re/usage/introduction) and the pipeline-specific documentation.
+In this example, the name of the pipeline is `nf-core/chipseq`, and we run its version `1.0.0`. It is not the latest version, but in real runs, please always use the latest versions of the nf-core pipelines.
+
+**When running an nf-core pipeline on CAMP, please make sure that you provide the `-profile crick` option.** 
+
+To find out about possible Nextflow and pipeline-specific options that you can use when running an nf-core pipeline, please, see the [nf-core documentation](https://nf-co.re/usage/introduction) and the pipeline-specific documentation.
