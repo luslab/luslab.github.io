@@ -47,8 +47,8 @@ nextflow run nf-core/chipseq \
     -resume
 ```
 
-In this example, the name of the pipeline is `nf-core/chipseq`, and we run its version `1.0.0`. In the case of the `chipseq` pipeline, it is not the latest version, but in real runs, please always use the latest versions of the nf-core pipelines.
+In this example, the name of the pipeline is `nf-core/chipseq`, and we run its version `1.0.0`. In the case of the `chipseq` pipeline, `1.0.0` is not the latest version, but when you begin your project, please use the latest versions of the nf-core pipelines.
 
 **When running an nf-core pipeline on CAMP, please make sure that you provide the `-profile crick` option.** 
 
-To find out more about possible Nextflow and pipeline-specific options that you can use when running an nf-core pipeline, please, see the [nf-core documentation](https://nf-co.re/usage/introduction) and the pipeline-specific documentation.
+To find out more about possible Nextflow and pipeline-specific options that you can use when running an nf-core pipeline, see the [nf-core documentation](https://nf-co.re/usage/introduction) and the pipeline-specific documentation.
