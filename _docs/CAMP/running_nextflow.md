@@ -26,7 +26,7 @@ Next, we execute the command `nextflow run path/to/pipeline_main.nf` which start
 
 You also need to make sure that the [Crick-specific config file for Nextflow](https://github.com/luslab/luslab-nf-modules/blob/master/configs/crick.config) is located in the same directory as the pipeline script (`path/to/` in our example above).
 
-To run an nf-core pipeline on CAMP, you need the same kind of bash wrapper, but instead of a path to a Nextflow script, you need to provide the name of the pipeline (it will be downloaded by Nextflow automatically):
+To run an _nf-core pipeline_ on CAMP, you need the same kind of bash wrapper, but instead of a path to a Nextflow script, you need to provide the name of the pipeline (Nextflow will downloaded the pipeline automatically):
 
 ```
 ## LOAD REQUIRED MODULES
