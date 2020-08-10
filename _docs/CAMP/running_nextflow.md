@@ -18,9 +18,9 @@ nextflow run path/to/pipeline_main.nf \
     -resume
 ```
 
-In this example, we first remove all pre-installed modules that could have been loaded so far (`ml purge`) and load the two modules that we need: Nextflow and [Singularity](https://en.wikipedia.org/wiki/Singularity_(software)). Singularity is a containerisation system used on computational clusters instead of Docker, because it is more secure than Docker. Docker images are automatically converted into the Singularity format, so you do not need to think about this. 
+In this example, we first remove all pre-installed modules that could have been loaded so far (`ml purge`) and load the two modules that we need: Nextflow and Singularity. [Singularity](https://en.wikipedia.org/wiki/Singularity_(software)) is a containerisation system used on computational clusters instead of Docker, because it is more secure than Docker. Docker images are automatically converted into the Singularity format, so you do not need to think about this. 
 
-**Make sure that you use the latest version of Nextflow available on CAMP! It should be higher or equal to 20.07.1.** You can do it by first checking which versions of Nextflow are pre-installed on CAMP as modules (`ml spider Nextflow`) and then choosing the latest one. It also makes sense to check for the latest version of Singularity available on CAMP and use it.
+**Make sure that you use the latest version of Nextflow available on CAMP! It should be higher than or equal to 20.07.1.** You can do it by first checking which versions of Nextflow are pre-installed on CAMP as modules (`ml spider Nextflow`) and then choosing the latest one. It also makes sense to check for the latest version of Singularity available on CAMP and use it.
 
 Next, we execute the command `nextflow run path/to/pipeline_main.nf` which starts the pipeline described in the `path/to/pipeline_main.nf` Nextflow script and provide necessary parameters to Nextflow (one dash) and to the pipeline itself (double dash).
 
