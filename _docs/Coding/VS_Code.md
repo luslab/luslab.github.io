@@ -23,7 +23,27 @@ finally, for coding in Java [IntelliJ IDEA](https://www.jetbrains.com/idea/) is 
 
 4. (Keybindings)
 
-5. (Extensions - recommend a list)
+5. You can install the following useful extensions:
+
+- [Nextflow](https://marketplace.visualstudio.com/items?itemName=nextflow.nextflow)
+
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+- [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts)
+
+- [markdownling](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+
+- [Gitconfig Syntax](https://marketplace.visualstudio.com/items?itemName=sidneys1.gitconfig)
+
+- [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+
+- [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+
+- [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
+
+- [WordCounter](https://marketplace.visualstudio.com/items?itemName=kirozen.wordcounter)
 
 6. Shortcuts for the terminal - find and outline (a new terminal beside the code; create a new terminal; move between terminals and code)
 
