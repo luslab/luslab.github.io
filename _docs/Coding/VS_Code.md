@@ -15,6 +15,8 @@ command line terminals. If you would like to try VS Code (which we really recomm
 for a big software development project in Python [PyCharm](https://www.jetbrains.com/pycharm/) may be the best environment; 
 finally, for coding in Java [IntelliJ IDEA](https://www.jetbrains.com/idea/) is a standard _de facto_. 
 
+To begin to use VS Code:
+
 1. Install VS Code from [its official website](https://code.visualstudio.com/).
 
 2. Checkout the Interactive Playground from the Welcome page to learn some useful ways of efficient code editing in VS Code.
