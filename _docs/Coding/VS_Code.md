@@ -21,11 +21,11 @@ To begin to use VS Code:
 
 2. Checkout the Interactive Playground from the Welcome page to learn some useful ways of efficient code editing in VS Code.
 
-3. (Color theme)
+3. Choose a color theme you like using the Color theme section of the Welcome page.
 
-4. (Keybindings)
+4. If you are moving to VS Code from another text editor, you may want to use familiar keybindings. If so, check out the Settings and keybindings section of the Welcome page. If you want to use native VS Code keybindings, please check out its cheatsheet, available from the Welcome page as a PDF (see Help, Printable keyboard cheatsheet). You can also easily add your own keybindings (see below).
 
-5. You can install the following useful extensions:
+5. You may want to install the following useful extensions to benefit from the start:
 
 - [Nextflow](https://marketplace.visualstudio.com/items?itemName=nextflow.nextflow) (Nextflow syntax support)
 
@@ -33,7 +33,7 @@ To begin to use VS Code:
 
 - [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts) (Markdown support)
 
-- [markdownling](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (Markdown style checking)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (Markdown style checking)
 
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) (Dockerfile syntax support and more)
 
