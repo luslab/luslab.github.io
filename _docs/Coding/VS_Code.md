@@ -27,25 +27,25 @@ To begin to use VS Code:
 
 5. You can install the following useful extensions:
 
-- [Nextflow](https://marketplace.visualstudio.com/items?itemName=nextflow.nextflow)
+- [Nextflow](https://marketplace.visualstudio.com/items?itemName=nextflow.nextflow) (Nextflow syntax support)
 
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (Python syntax support)
 
-- [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts)
+- [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts) (Markdown support)
 
-- [markdownling](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [markdownling](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (Markdown style checking)
 
-- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) (Dockerfile syntax support and more)
 
-- [Gitconfig Syntax](https://marketplace.visualstudio.com/items?itemName=sidneys1.gitconfig)
+- [Gitconfig Syntax](https://marketplace.visualstudio.com/items?itemName=sidneys1.gitconfig) (Syntax support for git config files)
 
-- [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+- [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) (Syntax support for .gitignore)
 
-- [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+- [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) (Support for coding on a remote machine)
 
-- [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
+- [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv) (Edit CSV files as an Excel-style spreadsheet)
 
-- [WordCounter](https://marketplace.visualstudio.com/items?itemName=kirozen.wordcounter)
+- [WordCounter](https://marketplace.visualstudio.com/items?itemName=kirozen.wordcounter) (Count words as you write; it is useful when writing abstracts)
 
 6. Shortcuts for the terminal - find and outline (a new terminal beside the code; create a new terminal; move between terminals and code)
 
