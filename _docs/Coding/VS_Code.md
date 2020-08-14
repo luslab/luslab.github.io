@@ -49,6 +49,6 @@ To begin to use VS Code:
 
 6. Shortcuts for the terminal - find and outline (a new terminal beside the code; create a new terminal; move between terminals and code)
 
-7. Git in VS Code (try first, refere to docs).
+7. You can work with Git straight from VS Code. Please see [VS Code documentation about using Git](https://code.visualstudio.com/docs/editor/versioncontrol). Of course, instead, you can still use Git from the command line or a dedicated graphical software like [GitHub Desktop](https://desktop.github.com/) or [GitKraken](https://www.gitkraken.com/). For details, please see our pages about [Git](../../reproducibility/git.md) and [GitHub](../../reproducibility/luslab-github.md).
 
-Now you are well equipped to use VS Code! Happy coding!
+You are now well equipped to use VS Code! Happy coding!
