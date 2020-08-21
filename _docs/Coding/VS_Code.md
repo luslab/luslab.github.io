@@ -17,13 +17,13 @@ To begin to use VS Code:
 
 1. Install VS Code from [its official website](https://code.visualstudio.com/).
 
-2. Checkout the Interactive Playground from the Welcome page to learn some useful ways of efficient code editing in VS Code.
+2. Choose a color theme you like using the Color theme section of the Welcome page.
 
-3. Choose a color theme you like using the Color theme section of the Welcome page.
+3. If you are moving to VS Code from another text editor, you may want to use familiar keybindings. If so, check out the Settings and keybindings section of the Welcome page. If you want to use native VS Code keybindings, please check out its cheatsheet, available from the Welcome page as a PDF (see Help, Printable keyboard cheatsheet). You can also easily add your own keybindings (see below).
 
-4. If you are moving to VS Code from another text editor, you may want to use familiar keybindings. If so, check out the Settings and keybindings section of the Welcome page. If you want to use native VS Code keybindings, please check out its cheatsheet, available from the Welcome page as a PDF (see Help, Printable keyboard cheatsheet). You can also easily add your own keybindings (see below).
+4. Checkout the Interactive Playground from the Welcome page to learn some useful ways of efficient code editing in VS Code.
 
-5. You may want to install the following useful extensions to benefit from the start:
+5. Install the following useful extensions to benefit from the start:
 
 - [Nextflow](https://marketplace.visualstudio.com/items?itemName=nextflow.nextflow) (Nextflow syntax support)
 
@@ -45,8 +45,53 @@ To begin to use VS Code:
 
 - [WordCounter](https://marketplace.visualstudio.com/items?itemName=kirozen.wordcounter) (Count words as you write; it is useful when writing abstracts)
 
-6. Shortcuts for the terminal - find and outline (a new terminal beside the code; create a new terminal; move between terminals and code)
+6. Install and try some useful commands:
 
-7. You can work with Git straight from VS Code. Please see [VS Code documentation about using Git](https://code.visualstudio.com/docs/editor/versioncontrol). Of course, instead, you can still use Git from the command line or a dedicated graphical software like [GitHub Desktop](https://desktop.github.com/) or [GitKraken](https://www.gitkraken.com/). For details, please see our pages about [Git](../../reproducibility/git) and [GitHub](../../reproducibility/luslab-github).
+- `code` allows you to open a text file from the command line in VS Code. For example, `code file.txt`. See [this post on Stackoverflow](https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac) on how to install this command.
+
+- `open` allows you to open a viewer for files of different formats (e. g., PDF or PNG) from the command line in VS Code. For example, `open file.pdf`. You don't need to install the command - it should be available by default.
+
+7. It is convenient to be able to open a terminal next to your code, instead of having the terminal below, and to smoothly move from code to the terminal and back, as well as between multiple terminals. To set the necessary shortcuts, open the Keyboard Shortcut editor (`Command + K + S`) and then click on "Open Keyboard Shortcuts (JSON)" button (a page with a bent arrow).
+
+**Note**: Be careful if you switched to keybindings of another editor (see paragraph 3 above): the shortcuts proposed below may overlap with the ones you switched to.
+
+Paste the following shortcut descriptions into the opened JSON file:
+
+```
+[
+    { "key": "ctrl+alt+`", "command": "workbench.action.positionPanelRight" },
+    { "key": "ctrl+`", "command": "workbench.action.terminal.focus"},
+    { "key": "ctrl+`", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus" },
+    { "key": "cmd+shift+j", "command": "workbench.action.terminal.focusNext" },
+    { "key": "cmd+shift+k", "command": "workbench.action.terminal.focusPrevious" },
+    { "key": "cmd+shift+w", "command": "workbench.action.terminal.kill" }
+]
+```
+
+Save the changes and close the file and the Keyboard Shortcut editor.
+
+Now you can mix these shortcuts with the default ones in the following way:
+
+- Create a new file (and hence, a new tab) with `Command + N` (a default shortcut).
+
+- Create a new terminal next to your editing area with `` Command + Option + ` ``.
+
+- Create more terminals with `` Shift + Ctrl + ` `` (a default shortcut).
+
+- Move to the next terminal with `Command + Shift + J` (when you reach the last terminal, you jump to the first one).
+
+- Move to the previous terminal with `Command + Shift + K` (when you reach the first terminal, you jump to the last one).
+
+- Remove the current terminal with `Command + Shift + W`.
+
+- Move back and forth between the current tab and the current terminal with `` Ctrl + ` ``.
+
+- Cycle through the editor tabs with `Command + Option + RightArrow` (a default shortcut).
+
+- Close the current tab with `Command + W` (a default shortcut).
+
+You can learn more about VS Code shortcuts from [the VS Code documentation](https://code.visualstudio.com/docs/getstarted/keybindings).
+
+8. You can work with Git straight from VS Code. Please see [VS Code documentation about using Git](https://code.visualstudio.com/docs/editor/versioncontrol). Of course, instead, you can still use Git from the command line or a dedicated graphical software like [GitHub Desktop](https://desktop.github.com/) or [GitKraken](https://www.gitkraken.com/). For details, please see our pages about [Git](../../reproducibility/git) and [GitHub](../../reproducibility/luslab-github).
 
 You are now well equipped to use VS Code! Happy coding!
