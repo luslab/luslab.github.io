@@ -19,7 +19,7 @@ To begin to use VS Code:
 
 2. Choose a color theme you like using the Color theme section of the Welcome page.
 
-3. If you are moving to VS Code from another text editor, you may want to use familiar keybindings. If so, check out the Settings and keybindings section of the Welcome page. If you want to use native VS Code keybindings, please check out its cheatsheet, available from the Welcome page as a PDF (see Help, Printable keyboard cheatsheet). You can also easily add your own keybindings (see below).
+3. If you are moving to VS Code from another text editor in which you have worked for quite a while, you may want to use familiar keybindings. If so, check out the Settings and keybindings section of the Welcome page. If you want to use native VS Code keybindings, please check out its cheatsheet, available from the Welcome page as a PDF (see Help, Printable keyboard cheatsheet). You can also easily add your own keybindings (see paragraph 7 below).
 
 4. Checkout the Interactive Playground from the Welcome page to learn some useful ways of efficient code editing in VS Code.
 
@@ -49,9 +49,9 @@ To begin to use VS Code:
 
 - `code` allows you to open a text file from the command line in VS Code. For example, `code file.txt`. See [this post on Stackoverflow](https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac) on how to install this command.
 
-- `open` allows you to open a viewer for files of different formats (e. g., PDF or PNG) from the command line in VS Code. For example, `open file.pdf`. You don't need to install the command - it should be available by default.
+- `open` allows you to open a viewer for files in different formats (e. g., PDF or PNG) from the command line in VS Code. For example, `open file.pdf`. You don't need to install the command - it should be available by default.
 
-7. It is convenient to be able to open a terminal next to your code, instead of having a terminal below, and to smoothly move from code to the terminal and back, as well as between multiple terminals. To set the necessary shortcuts, open the Keyboard Shortcut editor (`Command + K + S`) and then click on "Open Keyboard Shortcuts (JSON)" button (a page with a bent arrow).
+7. It is convenient to be able to open a terminal next to your code, instead of having a terminal at the bottom of the screen, and to smoothly move from code to the terminal and back, as well as between multiple terminals. To set the necessary shortcuts, open the Keyboard Shortcut editor (`Command + K + S`) and then click on "Open Keyboard Shortcuts (JSON)" button (a page with a bent arrow).
 
 **Note**: Be careful if you switched to keybindings of another editor (see paragraph 3 above): the shortcuts proposed below may overlap with the ones you switched to.
 
