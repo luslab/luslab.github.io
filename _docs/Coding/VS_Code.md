@@ -51,7 +51,7 @@ To begin to use VS Code:
 
 - `open` allows you to open a viewer for files of different formats (e. g., PDF or PNG) from the command line in VS Code. For example, `open file.pdf`. You don't need to install the command - it should be available by default.
 
-7. It is convenient to be able to open a terminal next to your code, instead of having the terminal below, and to smoothly move from code to the terminal and back, as well as between multiple terminals. To set the necessary shortcuts, open the Keyboard Shortcut editor (`Command + K + S`) and then click on "Open Keyboard Shortcuts (JSON)" button (a page with a bent arrow).
+7. It is convenient to be able to open a terminal next to your code, instead of having a terminal below, and to smoothly move from code to the terminal and back, as well as between multiple terminals. To set the necessary shortcuts, open the Keyboard Shortcut editor (`Command + K + S`) and then click on "Open Keyboard Shortcuts (JSON)" button (a page with a bent arrow).
 
 **Note**: Be careful if you switched to keybindings of another editor (see paragraph 3 above): the shortcuts proposed below may overlap with the ones you switched to.
 
@@ -90,7 +90,7 @@ Now you can mix these shortcuts with the default ones in the following way:
 
 - Close the current tab with `Command + W` (a default shortcut).
 
-You can learn more about VS Code shortcuts from [the VS Code documentation](https://code.visualstudio.com/docs/getstarted/keybindings).
+You can learn more about setting VS Code shortcuts from [the VS Code documentation](https://code.visualstudio.com/docs/getstarted/keybindings). Also, have a look a the cheatsheet of the default VS Code keybindings (see paragraph 3 above).
 
 8. You can work with Git straight from VS Code. Please see [VS Code documentation about using Git](https://code.visualstudio.com/docs/editor/versioncontrol). Of course, instead, you can still use Git from the command line or a dedicated graphical software like [GitHub Desktop](https://desktop.github.com/) or [GitKraken](https://www.gitkraken.com/). For details, please see our pages about [Git](../../reproducibility/git) and [GitHub](../../reproducibility/luslab-github).
 
