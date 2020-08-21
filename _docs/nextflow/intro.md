@@ -26,6 +26,8 @@ Please check out the following resources to get up and running with Nextflow:
  3. [Nextflow coding patterns](https://nextflow-io.github.io/patterns/index.html)
  4. [Nextflow blog](https://www.nextflow.io/blog.html)
  
+Also see [a very useful blog post](https://www.nextflow.io/blog/2019/easy-provenance-report.html) on how to track the provenance of results from a Nextflow pipeline.
+ 
 You can get help regarding Nextflow here:
 
  1. `nextflow` Slack channel in our Crick workspace.
