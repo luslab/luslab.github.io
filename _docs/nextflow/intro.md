@@ -21,10 +21,12 @@ See [our wiki page on how to run Nextflow on CAMP](../../CAMP/running_nextflow).
 
 Please check out the following resources to get up and running with Nextflow: 
 
- 1. [Nextflow overall documentation](https://www.nextflow.io/docs/latest/index.html)
- 2. [Nextflow DSL2 documentation](https://www.nextflow.io/docs/latest/dsl2.html)
- 3. [Nextflow coding patterns](https://nextflow-io.github.io/patterns/index.html)
- 4. [Nextflow blog](https://www.nextflow.io/blog.html)
+ 1. [Full Nextflow course from Seqera Labs](https://seqera.io/training/)
+ 2. [Nextflow overall documentation](https://www.nextflow.io/docs/latest/index.html)
+ 3. [Nextflow DSL2 documentation](https://www.nextflow.io/docs/latest/dsl2.html)
+ 4. [Nextflow coding patterns](https://nextflow-io.github.io/patterns/index.html)
+ 5. [Nextflow blog](https://www.nextflow.io/blog.html)
+ 6. [Nextflow resources](https://nf-co.re/usage/nextflow) (links to the same resources as above, but also to Nextflow tutorials and instructions on how to run Nextflow in the cloud)
  
 Also see [a very useful blog post](https://www.nextflow.io/blog/2019/easy-provenance-report.html) on how to track the provenance of results from a Nextflow pipeline.
  
