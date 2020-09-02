@@ -108,4 +108,6 @@ For all the details read HPC's wiki: https://wiki.thecrick.org/display/HPC/Analy
 
 ### Permissions on files and folders
 
-Permissions on CAMP are frequently a problem when trying to share files around. HPC have set up defaults using ACLs. We've been told that in our personal folders we are free to use chmod at will, but in shared folders where permissions are more complex we shouldn't use chmod and should use ACLs. If you can't sort the permissions out yourself it's pretty common to raise an IT ticket and/or post on Slack #hpc channel.
+Permissions on CAMP are frequently a problem when trying to share files around. HPC have set up defaults using ACLs. Where possible we should be using `setfacl` to change permissions instead of the more usual `chmod` (especially in shared folders, where this can mess up the ACLs apparently). A good resource for constructing ACL commands: https://www.computerhope.com/unix/usetfacl.htm.
+
+If you can't sort the permissions out yourself it's pretty common to raise an IT ticket and/or post on Slack #hpc channel.
