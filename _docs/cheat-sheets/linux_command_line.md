@@ -4,7 +4,7 @@ category: Cheat Sheets
 order: 1
 ---
 
-Disclamer: don't write Bash scripts, only one-liners! (Use Python for scripting.)
+Note: Don't write Bash scripts, only one-liners! (Use Python for scripting.)
 
 ## General
 - command combination with ";", "|" and "&&"
@@ -48,8 +48,8 @@ Disclamer: don't write Bash scripts, only one-liners! (Use Python for scripting.
 - comm
 
 ## Editing and summarising files
-- awk (disclaimer: it's a language, not just a command, but please don't write scripts in AWK, only short one-liners)
-- sed (disclaimer: it's a language, not just a command, but please don't write scripts in sed, only short one-liners)
+- awk (Note: AWK a language, not just a command, but please don't write scripts in AWK, only short one-liners)
+- sed (Note: sed a language, not just a command, but please don't write scripts in sed, only short one-liners)
 - tr
 - sort
 - uniq
