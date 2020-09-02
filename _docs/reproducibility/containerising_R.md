@@ -1,6 +1,6 @@
 ---
 title: Containerising R
-category: reproducibility
+category: Reproducibility
 order: 5
 ---
 
@@ -47,7 +47,7 @@ Next, you will need to build the image from the Dockerfile (this can also be don
 docker build -t <IMAGE>:<TAG> <FOLDER CONTAINING DOCKERFILE>
 ```
 
-### Running Rstudio from Docker container locally
+### Running Rstudio locally from within a container
 
 In order to run Rstudio from within a container, you will first need to pull the image from DockerHub
 ```
@@ -59,7 +59,7 @@ Now that you have the image downloaded locally, you can load Rstudio to port 878
 docker run --rm -e PASSWORD=test -p 8787:8787 -v <DIR_TO_MOUNT>:/home/rstudio <IMAGE>:<TAG>
 ```
 
-### Running Rstudio from Docker container locally
+### Running R scripts within a container on CAMP
 
 For some tasks, you may want to run R scripts on CAMP whilst using the same container but through the same container you have used locally. CAMP uses Singularity instead of Docker, however Singularity is capable of converting Docker images which is super handy.
 
