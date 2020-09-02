@@ -97,10 +97,11 @@ slamdunk_metadata.csv\
 
 Note that "threads" are equivalent to --cpus-per-task and the max seems to be 32 on the cpu partition.
 We can only have *one* interactive session running at a time. If you can't get one, it might be that you have one running that you forgot about.
+
 To check what you've got running:
 `squeue | grep *username*`
+
 To cancel a job:
 `scancel JOBID`
 
 For all the details read HPC's wiki: https://wiki.thecrick.org/display/HPC/Analysis+%7C+Simulation+%7C+Processing
-https://wiki.thecrick.org/display/HPC/Analysis+%7C+Simulation+%7C+Processing
