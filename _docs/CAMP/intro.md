@@ -105,3 +105,7 @@ To cancel a job:
 `scancel JOBID`
 
 For all the details read HPC's wiki: https://wiki.thecrick.org/display/HPC/Analysis+%7C+Simulation+%7C+Processing
+
+### Permissions on files and folders
+
+Permissions on CAMP are frequently a problem when trying to share files around. HPC have set up defaults using ACLs. We've been told that in our personal folders we are free to use chmod at will, but in shared folders where permissions are more complex we shouldn't use chmod and should use ACLs. If you can't sort the permissions out yourself it's pretty common to raise an IT ticket and/or post on Slack #hpc channel.
