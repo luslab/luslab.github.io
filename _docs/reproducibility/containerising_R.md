@@ -6,7 +6,7 @@ order: 5
 
 <h1 id="run-rscript-on-camp-in-batch-mode">Run Rscript on CAMP in batch mode</h1>
 
-You may find yourself wanting to run R scripts reproducibly both interactively in Rstudio and across both local and HPC systems. To do this you will need to build a Docker image containing R, Rstudio, and your required R packages. Luckily, the [rocker team](https://www.rocker-project.org/) have made base Docker images with R and Rstudio installed.
+You may find yourself wanting to run R scripts interactively in Rstudio whilst also maintaining reproducibility across different both local and HPC systems. To do this you will need to build a Docker image containing R, Rstudio, and your required R packages. Luckily, the [rocker team](https://www.rocker-project.org/) have made base Docker images with R and Rstudio installed.
 
 Here is an example Dockerfile which starts from the rocker/tidyverse Docker image.
 ```
