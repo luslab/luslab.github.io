@@ -72,3 +72,46 @@ The structure of the shared folder is:
         └── yeast
         └── etc
 ```
+
+### Doing analysis and running jobs
+
+The "quickstart" version is that CAMP is divided into "partitions" with certain nodes dedicated for certain things.
+Mostly you will submit batch jobs to the "cpu" partition and for testing code you will get an interactive node on the "int" partition. 
+Never run anything substantial (ie. more than simple head, cd, mkdir .etc commands) on the login node (this is where you are when you first ssh into the cluster).
+
+To get an interactive node with 4 cores you can do something like:
+`srun --x11 -N 1 -c 4 --mem=16G --part=int --pty -t 30:00:00 /bin/bash`
+
+The simplest way to run a batch job is to wrap your command like this:
+```
+sbatch --time=70:00:00 --partition=cpu --ntasks=1 --cpus-per-task=8 --wrap="\
+slamdunk all -r /camp/lab/luscomben/home/shared/ref/genomes/mouse/gencode_GRCm38/GRCm38.releaseM25.primary_assembly.genome.fa.gz \
+-b /camp/lab/luscomben/home/shared/ref/genomes/mouse/gencode_GRCm38/gencode.vM25.primary_assembly.3primeUTR.bed \
+-o results \
+-t 8 \
+-i $i \
+-5 12 -n 100 -m -rl 100 --skip-sam \
+slamdunk_metadata.csv\
+"
+```
+
+Note that "threads" are equivalent to --cpus-per-task and the max seems to be 32 on the cpu partition.
+We can only have *one* interactive session running at a time. If you can't get one, it might be that you have one running that you forgot about.
+
+To check what you've got running:
+`squeue | grep *username*`
+
+To cancel a job:
+`scancel JOBID`
+
+For all the details read HPC's wiki: https://wiki.thecrick.org/display/HPC/Analysis+%7C+Simulation+%7C+Processing
+
+### Permissions on files and folders
+
+Permissions on CAMP are frequently a problem when trying to share files around. HPC have set up defaults using ACLs. 
+
+For changing permissions instructions for our lab from HPC team are: *Chown is fine, Chmod is likely to grant permissions to more people than you meant to! But should keep the ACL.*
+
+We can also use `setfacl` to change permissions. A good resource for constructing ACL commands: https://www.computerhope.com/unix/usetfacl.htm.
+
+If you can't sort the permissions out yourself it's pretty common to raise an IT ticket and/or post on Slack #hpc channel.
