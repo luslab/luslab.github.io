@@ -98,4 +98,51 @@ Or you can load a shell session within the container and execute your scripts fr
 singularity shell ~/.singularity/<IMAGE_NAME>
 ```
 
+___
 
+### Run Rstudio through a singularity container on CAMP
+
+Here are the basic steps required to run Rstudio server from CAMP:
+
+First, save the function bellow to your home directory.
+```
+#!/bin/bash
+
+function singularity_rstudio(){
+	while [[ $# -gt 0 ]]
+	do
+	    case $1 in
+	    -v|--volume)
+	        local VOLUME="$2"
+	        ;;
+	    -c|--containder)
+	        local CONTAINER="$2"
+	        ;;
+	    esac
+	    shift
+	done
+
+
+	port=8787
+	link=http://$SLURMD_NODENAME.camp.thecrick.org:$port
+
+	ml Singularity
+	export PASSWORD=password
+	export USERNAME=`id -un`
+
+	echo "The RStudio-Server will be running on this address:"
+	echo $link
+	echo "Username:" $USERNAME
+	echo "Password:" $PASSWORD
+
+	singularity exec -c -B $VOLUME $CONTAINER rserver --www-port $port --www-address 0.0.0.0 --auth-none=0 --auth-pam-helper-path=pam-helper
+
+}
+```
+
+Then call the script - `source <path_to_script`
+
+
+Now run the singularity_rstudio function - `singularity_rstudio -v <volume_to_mount> -c <path_to_container>`
+
+A URL, username and password should now be displayed in terminal. Use these to login to Rstudio server.
