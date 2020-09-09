@@ -118,16 +118,17 @@ function singularity_rstudio(){
 	    -c|--containder)
 	        local CONTAINER="$2"
 	        ;;
+	   	-p|--port)
+	        local PORT="$2"
+	        ;;
 	    esac
 	    shift
 	done
 
+	link=http://$SLURMD_NODENAME.camp.thecrick.org:$PORT
 
-	port=8787
-	link=http://$SLURMD_NODENAME.camp.thecrick.org:$port
-
-	ml Singularity
-	export PASSWORD=password
+	ml Singularity/2.6.0-foss-2016b
+	export PASSWORD='password'
 	export USERNAME=`id -un`
 
 	echo "The RStudio-Server will be running on this address:"
@@ -135,14 +136,15 @@ function singularity_rstudio(){
 	echo "Username:" $USERNAME
 	echo "Password:" $PASSWORD
 
-	singularity exec -c -B $VOLUME $CONTAINER rserver --www-port $port --www-address 0.0.0.0 --auth-none=0 --auth-pam-helper-path=pam-helper
+	singularity exec -c -B $VOLUME:/home/rstudio $CONTAINER rserver --www-port $PORT --www-address 0.0.0.0 --auth-none=0 --auth-pam-helper-path=pam-helper
 
 }
 ```
 
 Then call the script - `source <path_to_script`
 
-
-Now run the singularity_rstudio function - `singularity_rstudio -v <volume_to_mount> -c <path_to_container>`
+Now run the singularity_rstudio function - `singularity_rstudio -v <volume_to_mount> -c <path_to_container> -p 8787`
 
 A URL, username and password should now be displayed in terminal. Use these to login to Rstudio server.
+
+If your files are not present in the files window, you will need to run: `setwd('/home/rstudio')`. Then, in the files window select 'more' > 'go to working directory'.
