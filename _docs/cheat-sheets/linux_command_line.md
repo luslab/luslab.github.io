@@ -4,18 +4,27 @@ category: Cheat Sheets
 order: 1
 ---
 
-Note: Don't write Bash scripts, only one-liners! (Use Python for scripting.)
+**Note:** Don't write Bash scripts, only one-liners! (Use Python for scripting.)
+
+See the full Bash manual [here](https://www.gnu.org/software/bash/manual/bash.html).
 
 ## General
-- command combination with ";", "|" and "&&"
-- return code 
-- redirection in general (> and >>)
-- redirecting stdout and stderr (possibly, to /dev/null)
-- process substitution
-- command grouping
-- xargs
-- `whoami` - Current login username
-- setting up PATH
+- `echo $?` - Print **exit status** of the last command: 0 if the last command exited successfully and a non-zero value otherwise 
+- `command1 | command2` - Execute `command1` and direct its `stdout` into `stdin` of `command2`
+- `command1 && command2` - Execute `command1` and then execute `command2` only if `command1` exited successfully
+- `command1; command2` - Execute `command1` and then `command2` independently of the success of `command1`
+- `command > file` - Direct `stdout` of `command` into `file`; the `file` gets overwritten
+- `command >> file` - Add the output of `command` to the end of `file`
+- `command 2> file` - Redirect `stderr` to `file`
+- `command 2>&1` - Redirect `stderr` to `stdout`
+- `command 2> /dev/null` - Remove anything printed by `command` into `stderr`
+- `<(command2)` - **Process substitution**: treat `stdout` of `command2` as a file. **Note:** There should be no space between `<` and `(`. 
+- `diff <(ls dir1) <(ls dir2)` - Find differences between lists of files in `dir1` and `dir2` (`diff` needs two files as arguments)
+- `command1 | tee file | command2` - `tee` splits `stdout` of `command1` and writes one copy into `file` while feeding the other copy into `stdin` of `command2`
+- `(command1; command2; ...; commandN)` - **Command grouping**: outputs of `command1`, `command2`, ..., `commandN` are collected and can be redirected together
+- `(echo -n "a"; echo "b") > f.txt` - Print `ab` into `f.txt`.
+- `PATH=PATH:/path/to/add` - Add `/path/to/add` to the value of the `PATH` variable
+- `whoami` - Print your current username
 
 ## Operations with directories and files
 - `pwd` - Show current path
