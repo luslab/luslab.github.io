@@ -10,19 +10,19 @@ See the full Bash manual [here](https://www.gnu.org/software/bash/manual/bash.ht
 
 ## General
 - `echo $?` - Print **exit status** of the last command: 0 if the last command exited successfully and a non-zero value otherwise 
-- `command1 | command2` - Execute `command1` and direct its `stdout` into `stdin` of `command2`
+- `command1 | command2` - Execute `command1` and redirect its `stdout` into `stdin` of `command2`
 - `command1 && command2` - Execute `command1` and then execute `command2` only if `command1` exited successfully
 - `command1; command2` - Execute `command1` and then `command2` independently of the success of `command1`
-- `command > file` - Direct `stdout` of `command` into `file`; the `file` gets overwritten
+- `command > file` - Redirect `stdout` of `command` into `file`; the `file` gets overwritten
 - `command >> file` - Add the output of `command` to the end of `file`
 - `command 2> file` - Redirect `stderr` to `file`
 - `command 2>&1` - Redirect `stderr` to `stdout`
-- `command 2> /dev/null` - Remove anything printed by `command` into `stderr`
+- `command 2> /dev/null` - Remove `stderr`
 - `<(command2)` - **Process substitution**: treat `stdout` of `command2` as a file. **Note:** There should be no space between `<` and `(`. 
-- `diff <(ls dir1) <(ls dir2)` - Find differences between lists of files in `dir1` and `dir2` (`diff` needs two files as arguments)
+- `diff <(ls dir1) <(ls dir2)` - Example of process substitution: find differences between lists of files in `dir1` and `dir2` (`diff` needs two files as arguments)
 - `command1 | tee file | command2` - `tee` splits `stdout` of `command1` and writes one copy into `file` while feeding the other copy into `stdin` of `command2`
-- `(command1; command2; ...; commandN)` - **Command grouping**: outputs of `command1`, `command2`, ..., `commandN` are collected and can be redirected together
-- `(echo -n "a"; echo "b") > f.txt` - Print `ab` into `f.txt`.
+- `(command1; command2; ...; commandN)` - **Command grouping**: `stdout` streams of `command1`, `command2`, ..., `commandN` are collected and can be redirected together
+- `(echo -n "a"; echo "b") > f.txt` - Example of command grouping: print `ab` into `f.txt`.
 - `PATH=PATH:/path/to/add` - Add `/path/to/add` to the value of the `PATH` variable
 - `whoami` - Print your current username
 
