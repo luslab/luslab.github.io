@@ -33,7 +33,7 @@ See the full Bash manual [here](https://www.gnu.org/software/bash/manual/bash.ht
 - `cd` - Change to the home directory.
 - `rm file1 [file2 ... fileN]` - Remove `file1`, `file2`, ..., `fileN`.
 - `rm -r dir` - Remove directory `dir` with all its contents.
-- `rm -f file1 [file2 ... fileN]` - Remove `file1`, `file2`, ..., `fileN` ignoring any nonexisting files, and make `rm` never prompt.
+- `rm -f file1 [file2 ... fileN]` - Remove `file1`, `file2`, ..., `fileN` ignoring any nonexisting files and suppressing prompts from `rm`.
 - `ls` - List. Lists all the files and folders contained in the current directory.
 - `mv <filepathsource> <filepathtarget>` - Renames/moves a file from source to target
 - `touch <newfile>` - Creates a new file without any content
