@@ -27,10 +27,13 @@ See the full Bash manual [here](https://www.gnu.org/software/bash/manual/bash.ht
 - `whoami` - Print your current username
 
 ## Operations with directories and files
-- `pwd` - Show current path
-- `cd <DIRECTORY>` - Change directory
-- `cd ..` - Go up one directory
-- rm
+- `pwd` - Show current path.
+- `cd dir` - Change directory to `dir`.
+- `cd ..` - Change to parent directory.
+- `cd` - Change to the home directory.
+- `rm file1 [file2 ... fileN]` - Remove `file1`, `file2`, ..., `fileN`.
+- `rm -r dir` - Remove directory `dir` with all its contents.
+- `rm -f file1 [file2 ... fileN]` - Remove `file1`, `file2`, ..., `fileN` ignoring any nonexisting files, and make `rm` never prompt.
 - `ls` - List. Lists all the files and folders contained in the current directory.
 - `mv <filepathsource> <filepathtarget>` - Renames/moves a file from source to target
 - `touch <newfile>` - Creates a new file without any content
