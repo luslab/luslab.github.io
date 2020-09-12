@@ -48,7 +48,7 @@ See the full Bash manual [here](https://www.gnu.org/software/bash/manual/bash.ht
 - `mv path/to/source path/to/target` - Renames or moves a file from source to target
 - `touch file` - Creates a new empty file called `file`
 - `cat > file` - Creates a file called `file` by asking user to type its contents. Press `Ctrl+D` when you are finished
-- `nano file` - Edit a text file called `file` with a simple text editor called Nano. It is useful for editing small files. You can use [Visual Studio Code](../../Coding/VS_Code.md) for editing big files, like scripts or TSV/CSV tables
+- `nano file` - Edit a text file called `file` with a simple text editor called Nano. It is useful for editing small files. You can use [Visual Studio Code](../../Coding/VS_Code) for editing big files, like scripts or TSV/CSV tables
 - `vim file` Edit a text file called `file` with an advanced text editor called Vim (see the [Vim manual](https://www.vim.org/docs.php) for details)
 - `mkdir newdir` - Create directory `newdir`
 - `mkdir -p path/to/newdir` - Create directory `newdir`, along with its parent directories (`path/to/`) if they do not yet exist
