@@ -22,7 +22,7 @@ See the full Bash manual [here](https://www.gnu.org/software/bash/manual/bash.ht
 - `diff <(ls dir1) <(ls dir2)` - Example of process substitution: find differences between lists of files in `dir1` and `dir2` (`diff` needs two files as arguments)
 - `command1 | tee file | command2` - `tee` splits `stdout` of `command1` and writes one copy into `file` while feeding the other copy into `stdin` of `command2`
 - `(command1; command2; ...; commandN)` - **Command grouping**: `stdout` streams of `command1`, `command2`, ..., `commandN` are collected and can be redirected together
-- `{ echo -n "a"; echo "b"; } > f.txt` - Example of command grouping: print `ab` into `f.txt`. Semicolon and spaces after `{` and before `}` are mandatory.
+- `{ echo -n "a"; echo "b"; } > f.txt` - Example of command grouping: print `ab` into `f.txt`. The semicolon after the last command and spaces after `{` and before `}` are mandatory.
 - `PATH=PATH:/path/to/add` - Add `/path/to/add` to the value of the `PATH` variable
 
 ## Misc
