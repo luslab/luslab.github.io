@@ -21,8 +21,8 @@ See the full Bash manual [here](https://www.gnu.org/software/bash/manual/bash.ht
 - `<(command2)` - **Process substitution**: treat `stdout` of `command2` as a file. **Note:** There should be no space between `<` and `(`. 
 - `diff <(ls dir1) <(ls dir2)` - Example of process substitution: find differences between lists of files in `dir1` and `dir2` (`diff` needs two files as arguments)
 - `command1 | tee file | command2` - `tee` splits `stdout` of `command1` and writes one copy into `file` while feeding the other copy into `stdin` of `command2`
-- `(command1; command2; ...; commandN)` - **Command grouping**: `stdout` streams of `command1`, `command2`, ..., `commandN` are collected and can be redirected together
-- `{ echo -n "a"; echo "b"; } > f.txt` - Example of command grouping: print `ab` into `f.txt`. The semicolon after the last command and spaces after `{` and before `}` are mandatory.
+- `{ command1; command2; ...; commandN; }` - **Command grouping**: `stdout` streams of `command1`, `command2`, ..., `commandN` are collected and can be redirected together. The semicolon after the last command and spaces after `{` and before `}` are mandatory.
+- `{ echo -n "a"; echo "b"; } > f.txt` - Example of command grouping: print `ab` into `f.txt`. 
 - `PATH=PATH:/path/to/add` - Add `/path/to/add` to the value of the `PATH` variable
 
 ## Misc
@@ -52,11 +52,15 @@ See the full Bash manual [here](https://www.gnu.org/software/bash/manual/bash.ht
 - `vim file` Edit a text file called `file` with an advanced text editor called Vim (see the [Vim manual](https://www.vim.org/docs.php) for details)
 - `mkdir newdir` - Create directory `newdir`
 - `mkdir -p path/to/newdir` - Create directory `newdir`, along with its parent directories (`path/to/`) if they do not yet exist
+- `ln -s file linkname` - Create a symbolic link called `linkname` to the `file`
 - `du -h -d1` - List top level directory space usage
-- `ln -s <source> <dest>` - Symbolic link
+- `cp path/to/file another/path` - Copy `file` from `path/to` to `another/path`
+- `cp -r path/to/dir another/path` - Copy directory `dir` from `path/to` to `another path`
+- `cp -a path/to/dir path/to/file another/path` - Copy `dir` and `file` from `path/to` to `another/path` and preserve all links
+- `cp -s path/to/file another/path` - Instead of copying, make a symbolic link `another/path/file` to `path/to/file`
+- `cp -u path/to/file another/path` - Copy `file` from `path/to` to `another/path` only if there is no `file` in `another/path` or `file` in `path/to` is newer
 - `find ./myfolder -mindepth 1 ! -regex '^./myfolder/test2\(/.*\)?' -delete` - this will delete all folders inside ./myfolder except that ./myfolder/test2 and all its contents will be preserved
 - stat
-- cp
 
 ## Viewing and comparing files
 - `tail -f` - Monitor a log file
