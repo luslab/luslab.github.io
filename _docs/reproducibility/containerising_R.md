@@ -109,7 +109,7 @@ Here are the basic steps required to run RStudio server from CAMP:
 ```
 #!/bin/bash
 
-function singularity_rstudio(){
+function singularity_rstudio() {
 	while [[ $# -gt 0 ]]
 	do
 	    case $1 in
@@ -155,7 +155,9 @@ It is useful to run this command from a `tmux` or `screen` session started on a 
 
 4) Upload ("source") this function into your Bash session: `source ~/start_rstudio.sh`.
 
-5) Start RStudio by calling the function: `singularity_rstudio -v <volume_to_mount> -c <path_to_rstudio_container> -p 8787`.
+5) Start RStudio by calling the function: 
+
+`singularity_rstudio -v <volume_to_mount> -c <path_to_rstudio_container> -p 8787`
 
 A URL, username and password should now be displayed in the terminal. Use these to login to Rstudio server from your web browser.
 
