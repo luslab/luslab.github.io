@@ -100,11 +100,12 @@ singularity shell ~/.singularity/<IMAGE_NAME>
 
 ___
 
-### Run Rstudio through a singularity container on CAMP
+### Run RStudio in a Singularity container on CAMP
 
-Here are the basic steps required to run Rstudio server from CAMP:
+Here are the basic steps required to run RStudio server from CAMP:
 
-First, save the function bellow to your home directory.
+1) Save the function below to your home directory (for example, into the `start_rstudio.sh` file):
+
 ```
 #!/bin/bash
 
@@ -137,14 +138,25 @@ function singularity_rstudio(){
 	echo "Password:" $PASSWORD
 
 	singularity exec -c -B $VOLUME:/home/rstudio $CONTAINER rserver --www-port $PORT --www-address 0.0.0.0 --auth-none=0 --auth-pam-helper-path=pam-helper
-
 }
 ```
 
-Then call the script - `source <path_to_script`
+2) Pull a Docker image with the RStudio Server:
 
-Now run the singularity_rstudio function - `singularity_rstudio -v <volume_to_mount> -c <path_to_container> -p 8787`
+`singularity pull --name rstudio.simg docker://rocker/rstudio:latest`
 
-A URL, username and password should now be displayed in terminal. Use these to login to Rstudio server.
+It will pull and build the image into the current directory. The building process may take several minutes. Move the container to another directory, if you like; it is especially useful to move it out of your home directory, if you have built it there, so it does not occupy very limited disk space.
 
-If your files are not present in the files window, you will need to run: `setwd('/home/rstudio')`. Then, in the files window select 'more' > 'go to working directory'.
+3) Go to an interactive node. For example, the following command will give you an interactive node with 16 GB of memory for 16 hours:
+
+`srun --ntasks=1 --mem=16G --time=16:00:00 --partition=int --pty bash`
+
+It is useful to run this command from a `tmux` or `screen` session started on a login node, so you don't lose your interactive node with RStudio in case you disconnect from CAMP.
+
+4) Upload ("source") this function into your Bash session: `source ~/start_rstudio.sh`.
+
+5) Start RStudio by calling the function: `singularity_rstudio -v <volume_to_mount> -c <path_to_rstudio_container> -p 8787`.
+
+A URL, username and password should now be displayed in the terminal. Use these to login to Rstudio server from your web browser.
+
+**Note**. If your files are not present in the `Open File` window in RStudio, you will need to run `setwd('/home/rstudio')` in the RStudio console.
