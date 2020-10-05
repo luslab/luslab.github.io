@@ -4,6 +4,13 @@ category: Cheat Sheets
 order: 5
 ---
 
+## Resources
+
+All official documentation: [https://docs.docker.com/reference/](https://docs.docker.com/reference/)
+Command line documentation: [https://docs.docker.com/engine/reference/commandline/cli/](https://docs.docker.com/engine/reference/commandline/cli/)
+Dockerfile format docs: [https://docs.docker.com/engine/reference/builder/](https://docs.docker.com/engine/reference/builder/)
+Unofficial Dockerfile cheatsheet: [https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)
+
 ## Build
 
 - `docker build -t <CONTAINER>:<TAG> <FOLDER CONTAINING DOCKERFILE>` -- build new image from docker file
