@@ -10,7 +10,7 @@ All official documentation: [https://docs.docker.com/reference/](https://docs.do
 
 Command line documentation: [https://docs.docker.com/engine/reference/commandline/cli/](https://docs.docker.com/engine/reference/commandline/cli/)
 
-Dockerfile format docs: [https://docs.docker.com/engine/reference/builder/](https://docs.docker.com/engine/reference/builder/)
+Dockerfile format documentation: [https://docs.docker.com/engine/reference/builder/](https://docs.docker.com/engine/reference/builder/)
 
 Unofficial Dockerfile cheatsheet: [https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index](https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index)
 
