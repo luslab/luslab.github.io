@@ -7,20 +7,20 @@ giuliamanferrari@gmail.com
 
 # Welcome to the LusLab!
 
-### **/*in progress*/**
+
 
  #### **Google calendars**:  
 There are two useful google calendars you should join and keep an eye on to track lab events: 
 * **Luscombe Lab**: this is the general lab calendar, mainly used for lab events (i.e meetings, annual leave, personal events)
 * **Nicholas Luscombe** (work): this is Nick's personal calendar, used to schedule one-on-one meetings
 
-Follow [these instructions](https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&hl=en) to subscribe to the calendars. In the “Add calendar” box, type nick@valleyofpigs.org to request access to both 'Luscombe Lab' and 'Nicholas Luscombe' calendars.
+Follow [these instructions](https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&hl=en) to subscribe to the calendars.   In the “Add calendar” box, type nick@valleyofpigs.org to request access to both 'Luscombe Lab' and 'Nicholas Luscombe' calendars.
  
  #### **LusLab GitHub**:
 Luslab has a very useful [GitHub account](https://github.com/luslab/luslab.github.io).  
 To join, first **create a personal GitHub account** and then **request access** to luslab members *(provide them with your GitHub account name)* 
 
-## Once you have a Crick email address:
+### Once you have a Crick email address:
 
 #### **Access to CAMP compute and storage**
 [CAMP](https://intranet.crick.ac.uk/our-crick/scientific-computing/pages/scientific-computing-platforms)
@@ -70,10 +70,7 @@ This page contains useful info and support for the set up of *vpc, slack, github
 Referring to **The Crick** in your work?  
 Guidance on how to use the Crick logos, typefaces, colours and other brand elements in your posters,presentation etc. can be fund [here](https://intranet.crick.ac.uk/our-crick/crick-brand)
 
-#### *To modify* 
-- Social/whattsapp group ? 
-- google calendar 
-- access to Camp 
+
 
 
 
