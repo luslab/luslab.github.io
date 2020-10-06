@@ -50,8 +50,8 @@ Once you set up your *Crick Slack account*, make sure to:
 - luslab-tech
 - luslab-hp
 
-Other useful *(open access)*channels you might want to join *(look for them in 'browse channel')*: 
-- r  
+Other useful (*open access*) channels you might want to join (*look for them in 'browse channel'*): 
+- R 
 - hpc 
 - nextflow
 
