@@ -14,7 +14,7 @@ There are two useful google calendars you should join and keep an eye on to trac
 * **Luscombe Lab**: this is the general lab calendar, mainly used for lab events (i.e meetings, annual leave, personal events)
 * **Nicholas Luscombe** (work): this is Nick's personal calendar, used to schedule one-on-one meetings
 
-Follow [these instructions](https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&hl=en) to subscribe to the calendars 
+Follow [these instructions](https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&hl=en) to subscribe to the calendars. In the “Add calendar” box, type nick@valleyofpigs.org to request access to both 'Luscombe Lab' and 'Nicholas Luscombe' calendars.
  
  #### **LusLab GitHub**:
 Luslab has a very useful [GitHub account](https://github.com/luslab/luslab.github.io).  
