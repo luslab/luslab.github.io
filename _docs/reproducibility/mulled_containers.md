@@ -12,7 +12,7 @@ Biocontainers are Docker containers created by the [Biocontainers project](https
 star=2.7.5b,samtools=1.9,pigz=2.3.4
 ```
 
-2. Clone our local repository [multi-package-containers](https://github.com/luslab/multi-package-containers) with `git clone https://github.com/luslab/multi-package-containers.git`. This is a fork from a repository created by the Biocontainers team for automatical generation of mulled biocontainers. According to the GitHub terminology, the forked repository is called an "upstream repository", and the fork itself that you have cloned is called "origin".
+2. Clone our local repository [multi-package-containers](https://github.com/luslab/multi-package-containers) with `git clone https://github.com/luslab/multi-package-containers.git`. This is a fork from a repository created by the Biocontainers team for automatical generation of mulled biocontainers. According to the GitHub terminology, Biocontainers' repository is called an "upstream repository", and our luslab fork that you have cloned is called "origin".
 
 3. Fetch and merge the latest version of the upstream repository. First, specify the upstream repository in your local git with `git remote add upstream https://github.com/BioContainers/multi-package-containers.git`. Now `git remote -v` should show both the origin and the upstream repositories:
 
@@ -31,7 +31,7 @@ Next, fetch the latest version of the upstream repository with `git fetch upstre
 
 5. Add the new branch to your cloned repository. First, pull the changes with `git pull` and then switch to the new branch with `git checkout --track origin/[new_branch_name]`. In our example, `[new_branch_name]` is `add_star_samtools_pigz`.
 
-6. Now you need to add your list of tools as a last line into `combinations/hash.tsv` (you can add several lists by putting them onto separate lines; this will lead to the generation of several mulled biocontainers in one go). After adding the list(s) of tools, commit the changes with `git commit -a -m "Added [your tool list]"` (in our example, `[your tool list]` is `star=2.7.5b,samtools=1.9,pigz=2.3.4`) and push the changes with `git push`.
+6. Now you need to add your list of tools as the last line into `combinations/hash.tsv` (you can add several lists by putting them onto separate lines; this will lead to the generation of several mulled biocontainers in one go). After adding the list(s) of tools, commit the changes with `git commit -a -m "Added [your tool list]"` (in our example, `[your tool list]` is `star=2.7.5b,samtools=1.9,pigz=2.3.4`) and push the changes with `git push`.
 
 7. On GitHub, open a pull request from your branch (in our exaemple, `add_star_samtools_pigz`) into the upstream master branch and name the pull request something like `Build star=2.7.5b,samtools=1.9,pigz=2.3.4` (if you added several lists of tools then you can name your pull request something like "Build 3 mulled biocontainers"). This will trigger a GitHub action in the upstream repository that will automatically generate the necessary container(s). If all goes well, the pull request will be merged shortly by one of the Biocontainers admins.
 
