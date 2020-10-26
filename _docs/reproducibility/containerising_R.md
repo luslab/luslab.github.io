@@ -143,7 +143,7 @@ function singularity_rstudio() {
 
 2) If you are going to use the container with RStudio for the first time, pull a Docker image with the RStudio Server:
 
-`singularity pull --name rstudio.simg docker://rocker/rstudio:latest`
+`singularity pull docker://rocker/rstudio:latest`
 
 It will pull and build the image into the current directory. The building process may take several minutes. Move the container to another directory, if you like; it is especially useful to move it out of your home directory, if you have built it there, so it does not occupy very limited disk space. 
 
