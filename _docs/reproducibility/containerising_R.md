@@ -179,4 +179,4 @@ A URL, username and password should now be displayed in the terminal. Use these 
 
 - Now, in the RStudio you should be able to access the installed packages with `library(<...>)`.
 
-8) You need to provide the path to the installed packages every time you start the RStudio. So, in RStudio, in addition to `setwd('/home/rstudio')`, you will need to run `.libPaths(/home/rstudio/<path_to_r_packages_inside_volume_to_mount>/r_packages)` before any other commands.
+8) You need to provide the path to the installed packages every time you start the RStudio. So, in RStudio, after running `setwd('/home/rstudio')`, you will need to run `.libPaths(/home/rstudio/<path_to_r_packages_inside_volume_to_mount>/r_packages)` before running any other commands.
