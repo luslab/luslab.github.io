@@ -163,4 +163,20 @@ It is useful to run this command from a `tmux` or `screen` session started on a 
 
 A URL, username and password should now be displayed in the terminal. Use these to login to Rstudio server from your web browser.
 
-**Note**. If your files are not present in the `Open File` window in RStudio, you will need to run `setwd('/home/rstudio')` in the RStudio console.
+6) Run `setwd('/home/rstudio')` in the RStudio console.
+
+7) If you need an R package not installed in the RStudio container by default, then to get it in the container permanently you would need to put an installation command in the Dockerfile of the container and re-build it (still need to write this up), but you can also install R packages outside of the container while working in RStudio:
+
+- On CAMP, Inside the `volume_to_mount` directory, create a subdirectory `r_packages` for R packages.
+
+- On CAMP, run exactly the same version of R you are running in RStudio (you can print the version of R with `R.version.string`). You can install the version of R you need from Bioconda or find it among Slurm modules available on CAMP with `ml spider R`.
+
+- In the R console on CAMP, set the new installation location for packages: `.libPaths(<volume_to_mount>/r_packages)`.
+
+- In the R console of RStudio, run the same command: `.libPaths(<volume_to_mount>/r_packages)` - so that RStudio knows where to look for packages.
+
+- In the R console on CAMP, install the packages you need.
+
+- Now, in the RStudio you should be able to access the installed packages with `library(<...>)`.
+
+8) You need to provide the path to the installed packages every time you start the RStudio. So, in RStudio, in addition to `setwd('/home/rstudio')`, you will need to run `.libPaths(<volume_to_mount>/r_packages)` before any other commands.
