@@ -173,7 +173,7 @@ A URL, username and password should now be displayed in the terminal. Use these 
 
 - In the R console on CAMP, set the new installation location for packages: `.libPaths(<volume_to_mount>/r_packages)`.
 
-- In the R console of RStudio, run the same command: `.libPaths(<volume_to_mount>/r_packages)` - so that RStudio knows where to look for packages.
+- In the R console of RStudio, run the same command: `.libPaths(/home/rstudio/<path_to_r_packages_inside_volume_to_mount>/r_packages)` - so that RStudio knows where to look for packages.
 
 - In the R console on CAMP, install the packages you need.
 
