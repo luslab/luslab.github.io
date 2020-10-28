@@ -167,7 +167,7 @@ A URL, username and password should now be displayed in the terminal. Use these 
 
 7) If you need an R package not installed in the RStudio container by default, then to get it in the container permanently you would need to put an installation command in the Dockerfile of the container and re-build it (still need to write this up), but you can also install R packages outside of the container while working in RStudio:
 
-- On CAMP, Inside the `volume_to_mount` directory, create a subdirectory `r_packages` for R packages.
+- On CAMP, inside the `volume_to_mount` directory, create a subdirectory `r_packages`.
 
 - On CAMP, run exactly the same version of R you are running in RStudio (you can print the version of R with `R.version.string`). You can install the version of R you need from Bioconda or find it among Slurm modules available on CAMP with `ml spider R`.
 
