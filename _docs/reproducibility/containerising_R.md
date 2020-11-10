@@ -107,37 +107,54 @@ Here are the basic steps required to run RStudio server from CAMP:
 1) Save the function below to your home directory (for example, into the `start_rstudio.sh` file):
 
 ```
-#!/bin/bash
+#!/usr/bin/env bash
 
 function singularity_rstudio() {
-	while [[ $# -gt 0 ]]
-	do
-	    case $1 in
-	    -v|--volume)
-	        local VOLUME="$2"
-	        ;;
-	    -c|--containder)
-	        local CONTAINER="$2"
-	        ;;
-	   	-p|--port)
-	        local PORT="$2"
-	        ;;
-	    esac
-	    shift
-	done
+    while [[ $# -gt 0 ]]
+    do
+        case $1 in
+        -v|--volume)
+            local VOLUME="$2"
+            ;;
+        -c|--containder)
+            local CONTAINER="$2"
+            ;;
+        esac
+        shift
+    done
 
-	link=http://$SLURMD_NODENAME.camp.thecrick.org:$PORT
+    PORT=8787
+    while true; do
+        echo -n "Trying port $PORT ... "
+        PORTPRESENCE=`ss -n | grep -w $PORT | wc -l`
+        if [[ $PORTPRESENCE -eq 0 ]]; then
+            echo "Success! The port is not in use."
+            break
+        fi
+        echo "Port is in use."
+        PORT=$((PORT+1))
+    done
 
-	ml Singularity/2.6.0-foss-2016b
-	export PASSWORD='password'
-	export USERNAME=`id -un`
+    link=http://$SLURMD_NODENAME.camp.thecrick.org:$PORT
 
-	echo "The RStudio-Server will be running on this address:"
-	echo $link
-	echo "Username:" $USERNAME
-	echo "Password:" $PASSWORD
+    ml Singularity/2.6.0-foss-2016b
+    export PASSWORD='password'
+    export USERNAME=`id -un`
 
-	singularity exec -c -B $VOLUME:/home/rstudio $CONTAINER rserver --www-port $PORT --www-address 0.0.0.0 --auth-none=0 --auth-pam-helper-path=pam-helper
+    echo "The RStudio-Server will be running on this address:"
+    echo $link
+    echo "Username:" $USERNAME
+    echo "Password:" $PASSWORD
+
+    singularity exec \
+        -c \
+        -B $VOLUME:/home/rstudio \
+        $CONTAINER \
+        rserver \
+        --www-port $PORT \
+        --www-address 0.0.0.0 \
+        --auth-none=0 \
+        --auth-pam-helper-path=pam-helper
 }
 ```
 
@@ -159,7 +176,7 @@ It is useful to run this command from a `tmux` or `screen` session started on a 
 
 5) Start RStudio by calling the function: 
 
-`singularity_rstudio -v <volume_to_mount> -c <path_to_rstudio_container> -p 8787`
+`singularity_rstudio -v <volume_to_mount> -c <path_to_rstudio_container>`
 
 A URL, username and password should now be displayed in the terminal. Use these to login to Rstudio server from your web browser.
 
@@ -171,12 +188,12 @@ A URL, username and password should now be displayed in the terminal. Use these 
 
 - On CAMP, run exactly the same version of R you are running in RStudio (you can print the version of R with `R.version.string`). You can install the version of R you need from Bioconda or find it among Slurm modules available on CAMP with `ml spider R`.
 
-- In the R console on CAMP, set the new installation location for packages: `.libPaths(<volume_to_mount>/r_packages)`.
+- In the R console on CAMP, set the new installation location for packages: `.libPaths('<volume_to_mount>/r_packages')`.
 
-- In the R console of RStudio, run the same command: `.libPaths(/home/rstudio/<path_to_r_packages_inside_volume_to_mount>/r_packages)` - so that RStudio knows where to look for packages.
+- In the R console of RStudio, run the same command: `.libPaths('/home/rstudio/<path_to_r_packages_inside_volume_to_mount>/r_packages')` - so that RStudio knows where to look for packages.
 
 - In the R console on CAMP, install the packages you need.
 
 - Now, in the RStudio you should be able to access the installed packages with `library(<...>)`.
 
-8) You need to provide the path to the installed packages every time you start the RStudio. So, in RStudio, after running `setwd('/home/rstudio')`, you will need to run `.libPaths(/home/rstudio/<path_to_r_packages_inside_volume_to_mount>/r_packages)` before running any other commands.
+8) You need to provide the path to the installed packages every time you start the RStudio. So, in RStudio, after running `setwd('/home/rstudio')`, you will need to run `.libPaths('/home/rstudio/<path_to_r_packages_inside_volume_to_mount>/r_packages')` before running any other commands.
