@@ -99,3 +99,13 @@ A URL, username and password should now be displayed in the terminal. Use these 
 - Now, in the RStudio you should be able to access the installed packages with `library(<...>)`.
 
 8) You need to provide the path to the installed packages every time you start the RStudio. So, in RStudio, after running `setwd('/home/rstudio')`, you will need to run `.libPaths('/home/rstudio/<path_to_r_packages_inside_volume_to_mount>/r_packages')` before running any other commands.
+
+9) If you installed a package but it would not load because it needs one or more shared libraries that are missing in the container, you can solve the problem with the following steps:
+
+- Find the necessary library (its name will be present in the error message) in your conda environment, if you have one (look into `<path/to/the/environment>/lib`). If you don't have a conda environment, you can create one using conda available among CAMP software modules (you can do `ml Anaconda3/2020.07` to load conda) and create an environment for libraries. Then install the library you need into this environment and find the installed library in the `lib` directory of the environment. In the error message from R, you will see the name of the soft link that should lead to the required library, so you can find the name of the soft link first and then see which file it directs to.
+
+- In the volume that you have mounted to the RStudio container, create a directory for shared libraries (for example, `libs`).
+
+- Copy the actual library file (not the soft link) from the environment into the `libs` directory and make a required soft link to it in that directory.
+
+- In your R script, before the failing line that should load your package, add another line to load the shared library first: `dyn.load("<library_directory>/softlink")`. For example, if you copied a required library `libicudata.so.67.1` into a directory `libs` that you created in the mounted volume and made a soft link `libicudata.so.67` to the library, then the command would be `dyn.load("/home/rstudio/libs/libicudata.so.67")`. Your package may miss multiple shared libraries, and in that case you need to copy all of them into `libs` and add a `dyn.load(...)` command for each of them in your R script before loading the package. 
