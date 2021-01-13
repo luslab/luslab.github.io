@@ -12,7 +12,7 @@ order: 2
 | 22/01/2021 | Koustav |
 | 29/01/2021 | Slava |
 | 5/02/2021 | Methods JC (all attending try to briefly present a new bioinformatics method paper the group might find useful) |
-| 12/02/2021 | Guilia |
+| 12/02/2021 | Giulia |
 | 19/02/2021 | Karen/Sina |
 | 26/02/2021 | Charlotte C Friday Wrap @ ISMB 2-3pm |
 | 5/03/2021 | Alex T |
