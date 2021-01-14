@@ -19,8 +19,9 @@ order: 2
 | 12/03/2021 | Jo |
 | 19/03/2021 | Undergrads|
 | 26/03/2021 | Nextflow update (led by Char W/Chris/Slava/Nobby? TBD between NF crew!) |
-| 12/04/2021 | Marc |
-| 19/04/2021 | Ira +/- Nobby |
+| 02/04/2021 | Marc |
+| 09/04/2021 | Ira +/- Nobby |
+| 16/04/2021 | Sara
 
 
 ## 2021 LMs
