@@ -7,7 +7,7 @@ order: 2
 ## 2021 Q1
 | Date | Presenting |
 |-|-|
-| 08/01/2021 | New year catch-up |
+| ~~08/01/2021~~ | New year catch-up |
 | 15/01/2021 | Jake |
 | 22/01/2021 | Koustav |
 | 29/01/2021 | Slava |
@@ -24,7 +24,7 @@ order: 2
 | 16/04/2021 | Sara
 
 
-## 2021 LMs
+## 2020 LMs
 | Date | Presenting |
 |-|-|
 | 18/09/2020 | Charlotte C |
