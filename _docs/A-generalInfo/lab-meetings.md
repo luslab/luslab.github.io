@@ -8,9 +8,9 @@ order: 2
 | Date | Presenting |
 |-|-|
 | ~~08/01/2021~~ | New year catch-up |
-| 15/01/2021 | Jake |
-| 22/01/2021 | Koustav |
-| 29/01/2021 | Slava |
+| ~15/01/2021~ | Jake |
+| ~22/01/2021~ | Koustav |
+| 29/01/2021 | Slava & Chris |
 | 5/02/2021 | Methods JC (all attending try to briefly present a new bioinformatics method paper the group might find useful) |
 | 12/02/2021 | Giulia |
 | 19/02/2021 | Karen/Sina |
