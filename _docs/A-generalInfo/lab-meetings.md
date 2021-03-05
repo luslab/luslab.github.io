@@ -20,8 +20,8 @@ order: 2
 | 19/03/2021 | Nextflow update (led by Char W/Chris/Slava/Nobby? TBD between NF crew!) |
 | 26/03/2021 | Marc |
 | 02/04/2021 | Ira +/- Nobby |
-| 09/04/2021 | Tamara & Jiayi |
-| 16/04/2021 | Sara
+| 09/04/2021 | Sara |
+| 16/04/2021 | Tamara & Jiayi |
 
 
 ## 2020 LMs
