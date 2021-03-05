@@ -13,14 +13,14 @@ order: 2
 | ~29/01/2021~ | Slava & Chris |
 | ~5/02/2021~ | Methods JC (all attending try to briefly present a new bioinformatics method paper the group might find useful) |
 | ~12/02/2021~ | Giulia |
-| 19/02/2021 | Alex T |
-| 26/02/2021 | Charlotte C Friday Wrap @ ISMB 2-3pm |
-| 5/03/2021 | Free slot! contact Charlotte C with ideas! |
+| ~19/02/2021~ | Alex T |
+| ~26/02/2021~ | Charlotte C Friday Wrap @ ISMB 2-3pm |
+| ~5/03/2021~ | Social |
 | 12/03/2021 | Jo |
-| 19/03/2021 | Undergrads|
-| 26/03/2021 | Nextflow update (led by Char W/Chris/Slava/Nobby? TBD between NF crew!) |
-| 02/04/2021 | Marc |
-| 09/04/2021 | Ira +/- Nobby |
+| 19/03/2021 | Nextflow update (led by Char W/Chris/Slava/Nobby? TBD between NF crew!) |
+| 26/03/2021 | Marc |
+| 02/04/2021 | Ira +/- Nobby |
+| 09/04/2021 | Tamara & Jiayi |
 | 16/04/2021 | Sara
 
 
