@@ -2,7 +2,7 @@
 title: Welcome
 ---
 
-Main documentation and “play-book” for the London Luslab.
+Main documentation and play-book for the London Luslab.
 
 🐙 [luslab github](https://github.com/luslab)
 
