@@ -4,6 +4,25 @@ category: General Info
 order: 2
 ---
 
+## 2021 Q2
+| Date | Presenting |
+|-|-|
+| 02/04/2021 | Holiday |
+| 09/04/2021 | Holiday |
+| 16/04/2021 | Tamara & Jiayi |
+| 23/04/2021 | Sara |
+| 30/04/2021 | Nextflow update (led by Char W/Chris/Slava/Nobby? TBD between NF crew!) |
+| 7/05/2021 | Methods JC (all attending try to briefly present a new bioinformatics method paper the group might find useful) |
+| 14/05/2021 | Koustav |
+| 21/05/2021 | Jake |
+| 28/05/2021 | Sina |
+| 4/06/2021 | Chris |
+| 11/06/2021 | Slava |
+| 18/06/2021 | Alex T |
+| 25/06/2021 | Charlotte C |
+
+
+
 ## 2021 Q1
 | Date | Presenting |
 |-|-|
@@ -16,12 +35,9 @@ order: 2
 | ~19/02/2021~ | Alex T |
 | ~26/02/2021~ | Charlotte C Friday Wrap @ ISMB 2-3pm |
 | ~5/03/2021~ | Social |
-| 12/03/2021 | Jo |
-| 19/03/2021 | Nextflow update (led by Char W/Chris/Slava/Nobby? TBD between NF crew!) |
-| 26/03/2021 | Marc |
-| 02/04/2021 | Ira +/- Nobby |
-| 09/04/2021 | Sara |
-| 16/04/2021 | Tamara & Jiayi |
+| ~12/03/2021~ | Jo |
+| 19/03/2021 | Marc |
+| 26/03/2021 | Ira (+/- Nobby, up to you guys) |
 
 
 ## 2020 LMs
