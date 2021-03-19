@@ -13,7 +13,7 @@ order: 2
 | 23/04/2021 | Sara |
 | 30/04/2021 | Nextflow update (led by Char W/Chris/Slava/Nobby? TBD between NF crew!) |
 | 7/05/2021 | Methods JC (all attending try to briefly present a new bioinformatics method paper the group might find useful) |
-| 14/05/2021 | Koustav |
+| 14/05/2021 | Ira |
 | 21/05/2021 | Jake |
 | 28/05/2021 | Sina |
 | 4/06/2021 | Chris |
@@ -37,7 +37,7 @@ order: 2
 | ~5/03/2021~ | Social |
 | ~12/03/2021~ | Jo |
 | 19/03/2021 | Marc |
-| 26/03/2021 | Ira (+/- Nobby, up to you guys) |
+| 26/03/2021 | Holiday |
 
 
 ## 2020 LMs
