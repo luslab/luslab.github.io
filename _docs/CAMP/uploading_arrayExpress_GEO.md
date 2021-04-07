@@ -31,6 +31,7 @@ You will then be allocated a personalised directory for your GEO workspace e.g. 
 - fastq files - ensure these are compressed
 - processed data (e.g. differential gene expression results csv file)
 - metadata csv file
+
 Then check folder size `du -hs geo_submission_oct20/`  # 159G
 
 3. Transfer files to your personalised upload space according to FTP upload instructions
@@ -53,4 +54,5 @@ put -R /camp/home/ziffo/home/projects/astrocyte-meta-analysis/reads/geo_submissi
 ```
 
 4. After the FTP transfer is complete, notify GEO using the [Submit to GEO](https://submit.ncbi.nlm.nih.gov/geo/submission/)  web form
+
 NB if you fail to notify them then the files will be automatically deleted from the server after two weeks. Once notified, they move the files to a safe location for review.
