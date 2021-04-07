@@ -35,6 +35,7 @@ Then check folder size `du -hs geo_submission_oct20/`  # 159G
 
 3. Transfer files to your personalised upload space according to FTP upload instructions
 Two options for transfer are with ncftpput or ncftp:
+
 a) ‘ncftpput’ (transfers from the command-line without entering an interactive shell)
 ```bash
 ml ncftp
