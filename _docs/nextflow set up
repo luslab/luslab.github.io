@@ -1,0 +1,67 @@
+# Nextflow step up 
+
+
+Key Tools to install:  
+
+- VSC code: extensions needed (Docker, Nextflow ...? ) 
+- JAVA
+- Nextflow 
+- Docker 
+- Home Brew 
+
+### Installing VSC code 
+download the following extension: 
+- Docker 
+- Nextflow 
+- Java (?)
+
+Version control: 
+- Git Kraken (https://www.gitkraken.com/) install the free Desktop version 
+
+### Setting up your dev directory 
+
+Create new `dev` repository in home directory. This `dev` repository will be a container for nexflow script developing 
+Inside `dev` create the `repos` and `test` directories 
+
+### Cloning your first directory 
+Now you are ready to clone any directory from github into your `dev` folder. 
+How to clone with git Kraken: 
+open git Kraken and click on `clone a repo`, here you can either clone a directory from a given URL or directly from git hub 
+Cloning will automatically clone an external directory and its content into your home-direcotry folder. 
+
+### Installing Home brew: 
+
+
+### Installing Java
+Nextflow requires Java to be installed first. 
+Use Home brew to install Java by following the instructions here https://devqa.io/brew-install-java/
+ Did we installed java in usrbin???
+brew install cask java
+ls -lsa /usr/local/Cellar/openjdk/
+ls -lsa /usr/local/opt/openjdk
+sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+java -version
+
+### Installing Docker 
+install Docker desktop....
+
+
+### Installing Nextflow
+mkdir usrbin
+open your terminal and create 
+/usr/local/bin ?? 
+ cd usrbin
+then run: `wget -qO- https://get.nextflow.io | bash`
+
+`sudo nano /etc/paths` then type `export PATH=$PATH:/my/custom/path`,
+`echo "$PWD"`
+`nextflow -version`
+
+#iTerm commands used: 
+`conda install graphviz`
+`docker build -f ./Dockerfile -t luslab/char-hicexplorer:latest .`
+
+Windows: 
+Mac:
+
+
