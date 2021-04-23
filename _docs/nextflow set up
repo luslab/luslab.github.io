@@ -15,7 +15,7 @@ download the following extension:
 - Nextflow 
 - Java (?)
 
-Version control: 
+### Installing Git Krarken (Version control): 
 - Git Kraken (https://www.gitkraken.com/) install the free Desktop version 
 
 ### Setting up your dev directory 
@@ -32,27 +32,27 @@ Cloning will automatically clone an external directory and its content into your
 ### Installing Home brew: 
 
 
+
 ### Installing Java
 Nextflow requires Java to be installed first. 
 Use Home brew to install Java by following the instructions here https://devqa.io/brew-install-java/
  Did we installed java in usrbin???
-brew install cask java
-ls -lsa /usr/local/Cellar/openjdk/
-ls -lsa /usr/local/opt/openjdk
-sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-java -version
+`brew install cask java`
+`ls -lsa /usr/local/Cellar/openjdk/`
+`ls -lsa /usr/local/opt/openjdk`
+`sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk`
+`java -version`
 
 ### Installing Docker 
 install Docker desktop....
-
+??????
 
 ### Installing Nextflow
-mkdir usrbin
-open your terminal and create 
-/usr/local/bin ?? 
- cd usrbin
-then run: `wget -qO- https://get.nextflow.io | bash`
 
+open your terminal and create 
+`mkdir usrbin`
+`cd usrbin`
+then run: `wget -qO- https://get.nextflow.io | bash`
 `sudo nano /etc/paths` then type `export PATH=$PATH:/my/custom/path`,
 `echo "$PWD"`
 `nextflow -version`
