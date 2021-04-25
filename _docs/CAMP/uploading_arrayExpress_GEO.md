@@ -1,7 +1,7 @@
 ---
 title: Uploading data from CAMP to ArrayExpress and GEO
 category: CAMP
-order: 1
+order: 2
 ---
 
 ## Uploading data from CAMP to ArrayExpress
