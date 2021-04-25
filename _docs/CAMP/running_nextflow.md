@@ -1,7 +1,7 @@
 ---
 title: How to run Nextflow on CAMP?
 category: CAMP
-order: 3
+order: 5
 ---
 
 You need CAMP to run Nextflow pipelines. It is convenient to use a bash wrapper like the following one to start up a Nextflow pipeline:
