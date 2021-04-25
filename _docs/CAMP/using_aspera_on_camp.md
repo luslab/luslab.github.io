@@ -1,7 +1,7 @@
 ---
 title: Using Aspera on CAMP
 category: CAMP
-order: 1
+order: 3
 ---
 
 To use Aspera on CAMP:
