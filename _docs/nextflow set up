@@ -61,13 +61,23 @@ Click the icon to run Docker deamon and then try the installation again.
 
 ### Installing Nextflow
 
-open your terminal and create 
+open your terminal and create a new directory called "usrbin": 
 `mkdir usrbin`
 `cd usrbin`
 then run: `wget -qO- https://get.nextflow.io | bash`
+This will create a main nextflow file in your current directory.
+You may want to move this nextflow file to a different directory that is accessible by your $PATH variable, 
+or add your current directory to your $PATH with export. 
+First, check what directories are in your current $PATH variable by typing:
+`echo $PATH`
+If the output doesn't include the directory containing your main nextflow file, you can either move this file to an
+existing path (by draggin and dropping) or you can add the directory containing this file to your path variable with export:
 `sudo nano /etc/paths` then type `export PATH=$PATH:/my/custom/path`,
 `echo "$PWD"`
+This command should now return the path to your directory, containing the main nextflow file.
+Check if the installation was successful by typing:
 `nextflow -version`
+If the command returns a version number, the installation was succesful.
 
 #iTerm commands used: 
 `conda install graphviz`
