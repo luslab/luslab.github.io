@@ -50,8 +50,14 @@ Use Home brew to install Java by following the instructions here https://devqa.i
 `java -version`
 
 ### Installing Docker 
-install Docker desktop....
-??????
+Type the following command in Homebrew to download the Docker package and run the installer:
+`brew cask install docker`
+To make sure the installation was succesful, type:
+`docker --version`
+If the command returns your Docker version, the installation was succesful. 
+If the command does not return a version, try starting Docker daemon: 
+Type "Docker" in Sporlight on mac or in the Application folder in Finder. 
+Click the icon to run Docker deamon and then try the installation again. 
 
 ### Installing Nextflow
 
