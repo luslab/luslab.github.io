@@ -29,7 +29,13 @@ How to clone with git Kraken:
 open git Kraken and click on `clone a repo`, here you can either clone a directory from a given URL or directly from git hub 
 Cloning will automatically clone an external directory and its content into your home-direcotry folder. 
 
-### Installing Home brew: 
+### Installing Homebrew: 
+Paste the following into a macOS terminal or Linux shell prompt:
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+This script installs Homebrew to /usr/local for macOS Intel, /opt/homebrew for Apple Silicon, so that you don't need to type "sudo" to install packages.
+The script will ask you to confirm each time it install a software package.
+If you are using macOS, make sure you have command line tools (CTL) for Xcode installed. If not, type the following code before installation:
+`xcode-select --install`
 
 
 
