@@ -74,7 +74,7 @@ Now you can mix these shortcuts with the default ones in the following way:
 
 - Create a new file (and hence, a new tab) with `Command + N` (a default shortcut).
 
-- Create a new terminal next to your editing area with `` Command + Option + ` ``.
+- Create a new terminal next to your editing area with `` Ctrl + Option + ` ``.
 
 - Create more terminals with `` Shift + Ctrl + ` `` (a default shortcut).
 
