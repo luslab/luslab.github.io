@@ -18,8 +18,8 @@ order: 2
 | 28/05/2021 | Sina |
 | 4/06/2021 | Chris |
 | 11/06/2021 | Slava |
-| 18/06/2021 | Alex T |
-| 25/06/2021 | Charlotte C |
+| 18/06/2021 | Charlotte C |
+| 25/06/2021 | Alex T |
 
 
 
