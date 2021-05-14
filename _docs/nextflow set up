@@ -1,13 +1,17 @@
-# Nextflow step up 
+## Nextflow step up 
 
 
-Key Tools to install:  
-
+Key tools to install to develop or run pipelines in Nextflow. 
 - VSC code: extensions needed (Docker, Nextflow ...? ) 
 - JAVA
 - Nextflow 
 - Docker 
 - Home Brew 
+
+### Version Control
+Similarly to other  Version control is an essential practice to track and manage changes when developing on Nextflow. Especially when multiple developers/teams work together on the same project (as we do in our Hackathons).
+
+
 
 ### Installing VSC code 
 download the following extension: 
@@ -83,7 +87,6 @@ If the command returns a version number, the installation was succesful.
 `conda install graphviz`
 `docker build -f ./Dockerfile -t luslab/char-hicexplorer:latest .`
 
-Windows: 
-Mac:
+
 
 
