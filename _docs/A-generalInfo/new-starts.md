@@ -1,12 +1,8 @@
 ---
 title: Welcome to the LusLab!
 category: General Info
-order: 1
+order: 2
 ---
-
-# Welcome to the LusLab!
-
-
 
  #### **Google calendars**:  
 There are two useful google calendars you should join and keep an eye on to track lab events: 
