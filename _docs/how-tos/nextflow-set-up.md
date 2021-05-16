@@ -1,4 +1,8 @@
-
+---
+title: Nextflow step up
+category: How-to's
+order: 4
+---
 
 # Nextflow step up 
 Please make sure to have these essential software installed before running or developing on Nextflow. In this wikipage you'll find the instructions to get your machine set up with these tools. 
