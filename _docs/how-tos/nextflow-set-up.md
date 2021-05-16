@@ -8,14 +8,14 @@ Please make sure to have these essential software installed before running or de
 
 Check list of the key tools to develop or run pipelines in Nextflow. 
 
-- [x] iTerm2 (Mac)
-- [x] HomeBrew
-- [x] GitHub 
-- [x] GitKraken
-- [x] Docker 
-- [x] VSC code and extensions
-- [x] JAVA
-- [x] Nextflow 
+- iTerm2 (Mac)
+- HomeBrew
+- GitHub 
+- GitKraken
+- Docker 
+- VSC code and extensions
+- AVA
+- Nextflow 
 
 ### Terminal 
 You would need to use terminal commands to run Nextflow and to install the majority of the required tools.   
