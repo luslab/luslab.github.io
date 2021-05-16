@@ -5,7 +5,7 @@ Please make sure to have these essential softwears installed before running or d
 
 Check list of key tools to develop or run pipelines in Nextflow. 
 
-- [ ] iTerm2
+- [ ] iTerm2 (Mac)
 - [ ] HomeBrew
 - [ ] GitHub 
 - [ ] GitKraken
@@ -23,7 +23,7 @@ Windows alternative?
 ## Installing Homebrew: 
 **Homebrew** is a free and open-source software package management system that simplifies the installation of the softwares you'll need to run Nextflow.  
 Homebrew is compatible with Apple's operating system macOS as well as Linux.  
-Paste the following into a macOS terminal or Linux shell prompt:  
+Paste the following into a macOS/iTerm2 terminal or Linux shell prompt:  
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`  
 This script installs Homebrew to `/usr/local`for macOS Intel, `/opt/homebrew `for Apple Silicon, so that you don't need to type "sudo" to install packages.
 The script will ask you to confirm each time it install a software package.  
@@ -59,64 +59,64 @@ Docker desktop?
 
 
 ### Installing VSC code 
-download the following extension: 
+Visual Studio Code (VSC) is the preferred text editor to develop Nextflow pipelines so make sure to have it installed.   
+You can found additional info on the use and installation of VSC and its useful extensions in our [VSC wiki section](https://luslab.github.io/Coding/VS_Code/)
+
+In particular, to work with Nextflow, make sure to have the following extensions installed: 
 - Docker 
 - Nextflow 
 - Java (?)
-
-
-
-### Setting up your dev directory 
-
-Create new `dev` repository in home directory. This `dev` repository will be a container for nexflow script developing 
-Inside `dev` create the `repos` and `test` directories 
-
-### Cloning your first directory 
-Now you are ready to clone any directory from github into your `dev` folder. 
-How to clone with git Kraken: 
-open git Kraken and click on `clone a repo`, here you can either clone a directory from a given URL or directly from git hub 
-Cloning will automatically clone an external directory and its content into your home-direcotry folder. 
-
-
-
-
+- others?
 
 ### Installing Java
-Nextflow requires Java to be installed first. 
-Use Home brew to install Java by following the instructions here https://devqa.io/brew-install-java/
+**Java** 8 or later is required to run Nextflow.
+If you have Java already installed, type `java -version` to make sure your release is 8 or later. 
+
+If you don't have Java, use **Home brew** to install Java by following [these instructions](https://devqa.io/brew-install-java/)
  Did we installed java in usrbin???
-`brew install cask java`
-`ls -lsa /usr/local/Cellar/openjdk/`
-`ls -lsa /usr/local/opt/openjdk`
-`sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk`
-`java -version`
-
-
+ Here's a summary of the commands you need type in your terminal
+`brew install cask java`  
+`ls -lsa /usr/local/Cellar/openjdk/`  
+`ls -lsa /usr/local/opt/openjdk`  
+`sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk`  
+ Check if the installation was successful by typing:`java -version`.
 
 ### Installing Nextflow
-
-open your terminal and create a new directory called "usrbin": 
-`mkdir usrbin`
-`cd usrbin`
-then run: `wget -qO- https://get.nextflow.io | bash`
-This will create a main nextflow file in your current directory.
+Use the following commands to install Nextflow via terminal.
+open your terminal and create a new directory called "usrbin":   
+`mkdir usrbin` 
+`cd usrbin`   
+then run: `wget -qO- https://get.nextflow.io | bash`   
+This will create a main nextflow file in your current directory.  
 You may want to move this nextflow file to a different directory that is accessible by your $PATH variable, 
 or add your current directory to your $PATH with export. 
 First, check what directories are in your current $PATH variable by typing:
-`echo $PATH`
+`echo $PATH`   
 If the output doesn't include the directory containing your main nextflow file, you can either move this file to an
 existing path (by draggin and dropping) or you can add the directory containing this file to your path variable with export:
 `sudo nano /etc/paths` then type `export PATH=$PATH:/my/custom/path`,
 `echo "$PWD"`
-This command should now return the path to your directory, containing the main nextflow file.
+This command should now return the path to your directory, containing the main nextflow file.   
 Check if the installation was successful by typing:
 `nextflow -version`
 If the command returns a version number, the installation was succesful.
 
-#iTerm commands used: 
+#iTerm commands used??: 
 `conda install graphviz`
 `docker build -f ./Dockerfile -t luslab/char-hicexplorer:latest .`
 
 
+### Setting up your dev directory 
+You are now set up to start devloping in Nextflow! 
+Create new `dev` repository in home directory. This `dev` repository will be a container for nexflow script developing.
+Inside `dev` create the `repos` and `test` directories 
+
+### Cloning your first directory 
+Now you are ready to clone any directory from github into your `dev` folder.   
+How to clone with git Kraken:     
+open git Kraken and click on `clone a repo`, here you can either clone a directory from a given URL or directly from git hub 
+Cloning will automatically clone an external directory and its content into your home-direcotry folder. 
+
+### Developing your pipeline in VSC
 
 
