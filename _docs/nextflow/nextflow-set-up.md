@@ -1,6 +1,6 @@
 ---
 title: Nextflow step up
-category: How-to's
+category: Nextflow
 order: 5
 ---
 
