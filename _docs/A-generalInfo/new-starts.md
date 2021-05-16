@@ -1,7 +1,7 @@
 ---
 title: Welcome to the LusLab!
 category: General Info
-order: 2
+order: 1
 ---
 
  #### **Google calendars**:  
