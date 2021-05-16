@@ -1,6 +1,6 @@
 ---
 title: Welcome to the LusLab!
-category: A-generalInfo
+category: General Info
 order: 1
 ---
 
