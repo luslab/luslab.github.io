@@ -1,3 +1,9 @@
+---
+title: Welcome to the LusLab!
+category: A-generalInfo
+order: 1
+---
+
 # Welcome to the LusLab!
 
 
