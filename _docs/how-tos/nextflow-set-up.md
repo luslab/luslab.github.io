@@ -14,7 +14,7 @@ Check list of the key tools to develop or run pipelines in Nextflow.
 - GitKraken
 - Docker 
 - VSC code and extensions
-- AVA
+- JAVA
 - Nextflow 
 
 ### Terminal 
