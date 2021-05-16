@@ -17,13 +17,12 @@ Check list of the key tools to develop or run pipelines in Nextflow.
 - [x] JAVA
 - [x] Nextflow 
 
-
-## Terminal 
+### Terminal 
 You would need to use terminal commands to run Nextflow and to install the majority of the required tools.   
 If you are on a Mac we reccomend using [iTerm2](https://iterm2.com/) instead of the default terminal.    
 Windows alternative?
 
-## Installing Homebrew: 
+### Installing Homebrew: 
 **Homebrew** is a free and open-source software package management system that simplifies the installation of the softwares you'll need to run Nextflow.  
 Homebrew is compatible with Apple's operating system macOS as well as Linux.  
    
@@ -34,20 +33,20 @@ The script will ask you to confirm each time it install a software package.
 If you are using macOS, make sure you have command line tools (CTL) for Xcode installed. If not, type the following code before installation:
 `xcode-select --install`
 
-## Version Control and Reproducibility tools
-### GitHub
+### Version Control and Reproducibility tools
+#### GitHub
 Similarly to other programming models, version control is an essential practice to track and manage changes when developing on Nextflow. 
 Especially when multiple developers/teams work together on the same project, as we do in our Hackathons.   
 Therefore you should first create a [Github account](https://github.com/) and then provide your github account to a Lus-lab member in order to have access to our [Luslab GitHub account](https://github.com/luslab/luslab.github.io).  
 
 You can find more info on Version Control and GitHub in our dedicated wiki pages on [reproducibility](https://luslab.github.io/reproducibility/intro/) and [Git](https://luslab.github.io/reproducibility/git/).  
 
-### GitKraken
+#### GitKraken
 Once you have a GitHub account, we suggest using the Git GUI [GitKraken](https://www.gitkraken.com/) to graphically visualize the history and changes to your repos. **GitKraken** offers a more intuitive approach to working with Git.   
 Download [here](https://www.gitkraken.com/download) the free GitKraken desktop version (Mac, Windows or Linux).    
 Once installed, syncronise GitKraken with your GitHub account. 
 
-### Installing Docker 
+#### Installing Docker 
 Nextflow supports **Docker** and **Singularity** containers technology.
 **Docker** can package an application and its libraries and other dependencies in a virtual container. This maximise reproducibility and portability as all the applications in the virtual container can then be accessed and run on any other Linux, Windows, or macOS machine regardless of any customized settings.  
 
@@ -62,7 +61,7 @@ Click the icon to run Docker deamon and then try the installation again.
 
 Docker desktop? 
 
-### Installing VSC code 
+#### Installing VSC code 
 **Visual Studio Code (VSC)** is the preferred text editor to develop Nextflow pipelines so make sure to have it installed.   
 You can found additional info on the use and installation of VSC (and its useful extensions) in our [VSC wiki section](https://luslab.github.io/Coding/VS_Code/)
 
@@ -72,7 +71,7 @@ In particular, to work with Nextflow, make sure to have the following extensions
 - Java (?)
 - others?
 
-### Installing Java
+#### Installing Java
 **Java** 8 or later is required to run Nextflow.  
 If you have Java already installed, type `java -version` to make sure your release is 8 or later. 
 
@@ -85,7 +84,7 @@ We have summarised here the commands you need type in your terminal:
 `sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk`  
  Check if the installation was successful by typing:`java -version`.
 
-### Installing Nextflow
+#### Installing Nextflow
 Use the following commands to install **Nextflow** via terminal.    
 Open your terminal and create a new directory called "usrbin":    
 `mkdir usrbin` 
@@ -112,18 +111,17 @@ If the command returns a version number, the installation was succesful.
 `conda install graphviz`
 `docker build -f ./Dockerfile -t luslab/char-hicexplorer:latest .`
 
-
-### Setting up your dev directory 
+#### Setting up your dev directory 
 You are now set up to start devloping in Nextflow! 
 Create new `dev` repository in home directory. This `dev` repository will be a container for nexflow script developing.
 Inside `dev` create the `repos` and `test` directories 
 
-### Cloning your first directory 
+#### Cloning your first directory 
 Now you are ready to clone any directory from github into your `dev` folder.   
 How to clone with git Kraken:     
 open git Kraken and click on `clone a repo`, here you can either clone a directory from a given URL or directly from git hub 
 Cloning will automatically clone an external directory and its content into your home-direcotry folder. 
 
-### Developing your pipeline in VSC
+#### Developing your pipeline in VSC
 
 
