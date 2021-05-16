@@ -1,10 +1,3 @@
----
-title: New Starts
-category: General Info
-order: 1
----
-giuliamanferrari@gmail.com
-
 # Welcome to the LusLab!
 
 
