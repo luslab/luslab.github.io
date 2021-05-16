@@ -3,7 +3,6 @@ title: Nextflow step up
 category: Nextflow
 order: 5
 ---
-
 Please make sure to have these essential software installed before running or developing on Nextflow. In this wikipage you'll find the instructions to get your machine set up with these tools. 
 
 Check list of the key tools to develop or run pipelines in Nextflow. 
