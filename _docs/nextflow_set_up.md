@@ -1,15 +1,49 @@
+
+
 ## Nextflow step up 
 
 
-Key tools to install to develop or run pipelines in Nextflow. 
-- VSC code: extensions needed (Docker, Nextflow ...? ) 
-- JAVA
-- Nextflow 
-- Docker 
-- Home Brew 
+Check list of key tools to develop or run pipelines in Nextflow. 
+- [ ]iTerm2
+- [ ]HomeBrew
+- [ ]GitHub 
+- [ ]GitKraken
+- [ ]Docker 
 
-### Version Control
-Similarly to other  Version control is an essential practice to track and manage changes when developing on Nextflow. Especially when multiple developers/teams work together on the same project (as we do in our Hackathons).
+- [ ]VSC code: extensions needed (Docker, Nextflow ...? ) 
+- [ ]JAVA
+- [ ]Nextflow 
+- [ ]Home Brew 
+
+### Terminal 
+You would need to use terminal commands to run Nextflow and to install the majority of the required tools. If you are on a Mac we reccomend using [iTerm2](https://iterm2.com/) instead of the default terminal
+Windows alternative?
+
+### Installing Homebrew: 
+Homebrew is a free and open-source software package management system that simplifies the installation of the softwares you'll need to run Nextflow. 
+Homebrew is compatible with Apple's operating system macOS as well as Linux. 
+Paste the following into a macOS terminal or Linux shell prompt:
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+This script installs Homebrew to /usr/local for macOS Intel, /opt/homebrew for Apple Silicon, so that you don't need to type "sudo" to install packages.
+The script will ask you to confirm each time it install a software package.
+If you are using macOS, make sure you have command line tools (CTL) for Xcode installed. If not, type the following code before installation:
+`xcode-select --install`
+
+### Version Control and Reproducibility tools
+#### GitHub
+Similarly to other programming models, Version control is an essential practice to track and manage changes when developing on Nextflow. 
+Especially when multiple developers/teams work together on the same project,as we do in our Hackathons.
+Therefore you should first create a **[Github account]**(https://github.com/) and then provide your github account to a lab member in order to have access to our [Luslab GitHub account](https://github.com/luslab/luslab.github.io)
+
+You can find more info on Version Control and GitHub on our dedicated wiki pages on [reproducibility](https://luslab.github.io/reproducibility/intro/) and [git](https://luslab.github.io/reproducibility/git/)
+
+#### GitKraken
+Once you have a gitHub account, we suggest using the Git GUI [GitKraken](https://www.gitkraken.com/)to graphically visualize the history and changes to your repos,  which offers a more intuiive approach to working with Git.
+Download [Here](https://www.gitkraken.com/download) the free GitKraken desktop version (Mac, Windows or Linux). 
+Once installed, syncronise GitKraken with your GitHub account. 
+
+
+#### Docker
 
 
 
@@ -19,8 +53,7 @@ download the following extension:
 - Nextflow 
 - Java (?)
 
-### Installing Git Krarken (Version control): 
-- Git Kraken (https://www.gitkraken.com/) install the free Desktop version 
+
 
 ### Setting up your dev directory 
 
@@ -33,13 +66,7 @@ How to clone with git Kraken:
 open git Kraken and click on `clone a repo`, here you can either clone a directory from a given URL or directly from git hub 
 Cloning will automatically clone an external directory and its content into your home-direcotry folder. 
 
-### Installing Homebrew: 
-Paste the following into a macOS terminal or Linux shell prompt:
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-This script installs Homebrew to /usr/local for macOS Intel, /opt/homebrew for Apple Silicon, so that you don't need to type "sudo" to install packages.
-The script will ask you to confirm each time it install a software package.
-If you are using macOS, make sure you have command line tools (CTL) for Xcode installed. If not, type the following code before installation:
-`xcode-select --install`
+
 
 
 
