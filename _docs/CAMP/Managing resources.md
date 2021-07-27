@@ -1,3 +1,9 @@
+---
+title: Managing Resources
+category: CAMP
+order: 2
+---
+
 ## Check how many CPUs the lab is using
 
 As a lab and as individuals we have limits on the number of CPUs we can use at any one time. The up-to-date info for that is [here](https://wiki.thecrick.org/display/HPC/Running+jobs+on+CAMP).
