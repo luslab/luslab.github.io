@@ -9,16 +9,16 @@ order: 2
 |-|-|
 | 09/07/2021 | Holiday |
 | 16/07/2021 | JC - brief discussion of proposed papers |
-| 23/07/2021 | Oliver |
+| 23/07/2021 | Cancelled |
 | 30/07/2021 | Koustav |
 | 06/08/2021 | Charlotte |
-| 13/08/2021 | Ira & Nobby paper JC |
-| 20/08/2021 | Eva |
+| 13/08/2021 | Oliver |
+| 20/08/2021 | Online social |
 | 27/08/2021 | Jiayi & Marc |
 | 03/09/2021 | Nextflow updates - Chris, Slava, Alex, Marc, Charlotte |
 | 10/09/2021 | Giulia |
-| 17/09/2021 | Collabs day! Each "within lab "collaboration preps one slide and flash talk with the aims of the collab and what each member brings |
-| 24/09/2021 | Online social |
+| 17/09/2021 | Eva |
+| 24/09/2021 | Collabs day! Each "within lab "collaboration preps one slide and flash talk with the aims of the collab and what each member brings |
 | 01/10/2021 | Jo |
 
 
