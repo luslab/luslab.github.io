@@ -14,7 +14,7 @@ order: 2
 | 06/08/2021 | Charlotte |
 | 13/08/2021 | Oliver |
 | 20/08/2021 | Online social |
-| 27/08/2021 | Jiayi & Marc |
+| 27/08/2021 | Cancelled |
 | 03/09/2021 | Nextflow updates - Chris, Slava, Alex, Marc, Charlotte |
 | 10/09/2021 | Giulia |
 | 17/09/2021 | Eva |
