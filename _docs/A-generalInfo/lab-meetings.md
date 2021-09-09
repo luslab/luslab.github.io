@@ -16,10 +16,26 @@ order: 2
 | 20/08/2021 | Online social |
 | 27/08/2021 | Cancelled |
 | 03/09/2021 | Nextflow updates - Chris, Slava, Alex, Marc, Charlotte |
-| 10/09/2021 | Giulia |
+| 10/09/2021 | Cancelled |
 | 17/09/2021 | Eva |
-| 24/09/2021 | Collabs day! Each "within lab "collaboration preps one slide and flash talk with the aims of the collab and what each member brings |
+| 24/09/2021 | Giulia |
 | 01/10/2021 | Jo |
+
+## 2021 Q4
+| Date | Presenting |
+|-|-|
+
+| 08/10/2021 | Nobby |
+| 15/10/2021 | Sara |
+| 22/10/2021 | JC - brief discussion of proposed papers |
+| 29/10/2021 | Marc |
+| 05/11/2021 | Tamara |
+| 12/11/2021 | Jake |
+| 19/11/2021 | Sina (+ Karen?) |
+| 26/11/2021 | Chris |
+| 03/12/2021 | Slava |
+| 10/12/2021 | Alex T |
+| 17/12/2021 | Reflections on past year - round robin - what people have learnt |
 
 
 
