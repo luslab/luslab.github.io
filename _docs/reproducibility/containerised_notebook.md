@@ -54,7 +54,7 @@ function singularity_jupyter() {
 }
 ```
 
-2) If you are going to use the container with RStudio for the first time, pull a Docker image with Jupyter installed:
+2) If you are going to use the container with Jupyter notebook for the first time, pull a Docker image with notebook installed:
 
 `singularity pull docker://<IMAGE>`
 
@@ -66,7 +66,7 @@ Next time you will skip this step.
 
 `srun --ntasks=1 --mem=16G --time=16:00:00 --partition=int --pty bash`
 
-It is useful to run this command from a `tmux` or `screen` session started on a login node, so you don't lose your interactive node with RStudio in case you disconnect from CAMP.
+It is useful to run this command from a `tmux` or `screen` session started on a login node, so you don't lose your interactive node with Jupyter in case you disconnect from CAMP.
 
 4) Upload ("source") this function into your Bash session: `source ~/.aliases.sh`.
 
