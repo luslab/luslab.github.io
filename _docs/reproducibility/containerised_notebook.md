@@ -76,4 +76,4 @@ It is useful to run this command from a `tmux` or `screen` session started on a 
 
 By default the working directory will be mounted to the container if -v is not specified.
 
-A URL should now be displayed in the terminal and is used to login to Jupyter from your web browser (i.e. http://int000:8888/?token=xxxxxxx). You will need to append '.camp.thecrick' to the URL for it to function correctly (i.e. http://int000.camp.thecrick:8888/?token=xxxxxxx).
+A URL should now be displayed in the terminal and is used to login to Jupyter from your web browser (i.e. `http://int000:8888/?token=xxxxxxx`). You will need to append `.camp.thecrick.org` to the URL for it to function correctly (i.e. `http://int000.camp.thecrick.org:8888/?token=xxxxxxx`).
