@@ -24,7 +24,6 @@ order: 2
 ## 2021 Q4
 | Date | Presenting |
 |-|-|
-
 | 08/10/2021 | Nobby |
 | 15/10/2021 | Sara |
 | 22/10/2021 | JC - brief discussion of proposed papers |
