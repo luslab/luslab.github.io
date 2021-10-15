@@ -32,8 +32,8 @@ order: 2
 | 12/11/2021 | Jake |
 | 19/11/2021 | Sina (+ Karen?) |
 | 26/11/2021 | Chris |
-| 03/12/2021 | Slava |
-| 10/12/2021 | Alex T |
+| 03/12/2021 | Alex T |
+| 10/12/2021 | Slava |
 | 17/12/2021 | Reflections on past year - round robin - what people have learnt |
 
 
