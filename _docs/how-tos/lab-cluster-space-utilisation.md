@@ -23,8 +23,8 @@ To do that, place the code below into a bash script e.g. `space_util.sh`:
 #SBATCH --error=luslab_space_util.err.txt
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
-#SBATCH --time=24:00:00
-#SBATCH --mem=16G
+#SBATCH --time=8:00:00
+#SBATCH --mem=4G
 #SBATCH --partition=cpu
 
 ## RUN SPACE UTIL
