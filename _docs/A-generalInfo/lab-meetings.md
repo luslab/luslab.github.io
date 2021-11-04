@@ -8,12 +8,11 @@ order: 2
 ## 2021 Q4
 | Date | Presenting |
 |-|-|
-
 | 08/10/2021 | Nobby |
 | 15/10/2021 | Sara |
 | 22/10/2021 | JC - brief discussion of proposed papers |
 | 29/10/2021 | Marc |
-| 05/11/2021 | No lab meeting |
+| 05/11/2021 | No LM |
 | 12/11/2021 | Jake |
 | 19/11/2021 | Sina (+ Karen?) |
 | 26/11/2021 | Chris |
