@@ -4,6 +4,25 @@ category: General Info
 order: 2
 ---
 
+
+## 2021 Q4
+| Date | Presenting |
+|-|-|
+
+| 08/10/2021 | Nobby |
+| 15/10/2021 | Sara |
+| 22/10/2021 | JC - brief discussion of proposed papers |
+| 29/10/2021 | Marc |
+| 05/11/2021 | No lab meeting |
+| 12/11/2021 | Jake |
+| 19/11/2021 | Sina (+ Karen?) |
+| 26/11/2021 | Chris |
+| 03/12/2021 | Slava |
+| 10/12/2021 | Alex T |
+| 17/12/2021 | Reflections on past year - round robin - what people have learnt |
+
+
+
 ## 2021 Q3
 | Date | Presenting |
 |-|-|
@@ -20,21 +39,6 @@ order: 2
 | 17/09/2021 | Eva |
 | 24/09/2021 | Giulia |
 | 01/10/2021 | Jo |
-
-## 2021 Q4
-| Date | Presenting |
-|-|-|
-| 08/10/2021 | Nobby |
-| 15/10/2021 | Sara |
-| 22/10/2021 | JC - brief discussion of proposed papers |
-| 29/10/2021 | Marc |
-| 05/11/2021 | Tamara |
-| 12/11/2021 | Jake |
-| 19/11/2021 | Sina (+ Karen?) |
-| 26/11/2021 | Chris |
-| 03/12/2021 | Alex T |
-| 10/12/2021 | Slava |
-| 17/12/2021 | Reflections on past year - round robin - what people have learnt |
 
 
 
