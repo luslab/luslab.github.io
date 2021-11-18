@@ -8,18 +8,32 @@ order: 2
 ## 2021 Q4
 | Date | Presenting |
 |-|-|
-| 08/10/2021 | Nobby |
+| 08/10/2021 | No LM |
 | 15/10/2021 | Sara |
 | 22/10/2021 | JC - brief discussion of proposed papers |
 | 29/10/2021 | Marc |
 | 05/11/2021 | No LM |
-| 12/11/2021 | Jake |
-| 19/11/2021 | Sina (+ Karen?) |
-| 26/11/2021 | Chris |
-| 03/12/2021 | Slava |
-| 10/12/2021 | Alex T |
-| 17/12/2021 | Reflections on past year - round robin - what people have learnt |
+| 10/11/2021 | Jake |
+| 24/11/2021 | Sina (+ Karen?) |
+| 01/12/2021 | Tech & Methods |
+| 08/12/2021 | Chris |
+| 15/12/2021 | Tech & Methods |
 
+
+## 2022 Q1
+| Date | Presenting |
+|-|-|
+| 05/01/2022 | Reflections on past year - round robin - what people have learnt |
+| 12/01/2022 | Tech & Methods |
+| 19/01/2022 | Slava |
+| 26/01/2022 | Tech & Methods |
+| 02/02/2022 | Alex T |
+| 09/02/2022 | Tech & Methods |
+| 10/02/2022 | Nobby |
+| 17/02/2022 | Tech & Methods |
+
+
+### Past LMs
 
 
 ## 2021 Q3
