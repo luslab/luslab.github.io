@@ -3,7 +3,22 @@ title: Lab meetings
 category: General Info
 order: 2
 ---
+## 2022 Q1
+| Date | Presenting |
+|-|-|
+| 05/01/2022 | Reflections on past year - round robin - what people have learnt |
+| 12/01/2022 | Tech & Methods |
+| 19/01/2022 | Slava |
+| 26/01/2022 | Tech & Methods |
+| 02/02/2022 | Alex T |
+| 09/02/2022 | Tech & Methods |
+| 16/02/2022 | Nobby |
+| 23/02/2022 | Tech & Methods |
+| 02/03/2022 | JC - brief discussion of proposed papers |
+| 09/03/2022 | Tech & Methods |
 
+
+### Past LMs
 
 ## 2021 Q4
 | Date | Presenting |
@@ -18,22 +33,6 @@ order: 2
 | 01/12/2021 | Tech & Methods |
 | 08/12/2021 | Chris |
 | 15/12/2021 | Tech & Methods |
-
-
-## 2022 Q1
-| Date | Presenting |
-|-|-|
-| 05/01/2022 | Reflections on past year - round robin - what people have learnt |
-| 12/01/2022 | Tech & Methods |
-| 19/01/2022 | Slava |
-| 26/01/2022 | Tech & Methods |
-| 02/02/2022 | Alex T |
-| 09/02/2022 | Tech & Methods |
-| 10/02/2022 | Nobby |
-| 17/02/2022 | Tech & Methods |
-
-
-### Past LMs
 
 
 ## 2021 Q3
@@ -54,7 +53,6 @@ order: 2
 | 01/10/2021 | Jo |
 
 
-
 ## 2021 Q2
 | Date | Presenting |
 |-|-|
@@ -71,7 +69,6 @@ order: 2
 | 11/06/2021 | Slava |
 | 18/06/2021 | Charlotte C |
 | 25/06/2021 | Alex T |
-
 
 
 ## 2021 Q1
