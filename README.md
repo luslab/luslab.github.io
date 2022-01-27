@@ -1,3 +1,22 @@
+# Luscombe Group Wiki
+
+## Working on the site locally
+
+To work on the site locally, run this docker command in the repository:
+
+```
+docker run \
+    -it \
+    --rm \
+    -v $(pwd):/apps \
+    -p 4000:4000 \
+    alpine/bundle:2.7.2 \
+    /bin/bash -c "bundle install; bundle exec jekyll serve --host 0.0.0.0"
+```
+
+The site will be accessible at http://127.0.0.1:4000.
+Any changes you make to the files will automatically trigger a rebuild, the results of which can be seen by refreshing the page.
+
 # Edition
 
 Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
