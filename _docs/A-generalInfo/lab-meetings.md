@@ -9,13 +9,34 @@ order: 2
 | 05/01/2022 | Reflections on past year - round robin - what people have learnt |
 | 12/01/2022 | Tech & Methods |
 | 19/01/2022 | Slava |
-| 26/01/2022 | Tech & Methods |
+| 26/01/2022 | Chris - Number/Data Theory |
 | 02/02/2022 | Alex T |
-| 09/02/2022 | Tech & Methods |
+| 09/02/2022 | Chris - Computer Architecture |
 | 16/02/2022 | Nobby |
-| 23/02/2022 | Tech & Methods |
-| 02/03/2022 | JC - brief discussion of proposed papers |
-| 09/03/2022 | Tech & Methods |
+| 23/02/2022 | Marc - CPUs/CPU Instructions/Computer operation |
+| 02/03/2022 | Koustav |
+| 09/03/2022 | Mike - Memory/Storage |
+| 09/03/2022 | JC - brief discussion of proposed papers |
+| 23/03/2022 | Slava - Operating systems |
+| 30/03/2022 | Charlotte |
+
+
+## 2022 Q2
+| Date | Presenting |
+|-|-|
+| 06/04/2022 | Koustav - Programming Languages Primer (assembler onwards) |
+| 13/04/2022 | Oli |
+| 20/04/2022 | Eva - Networking |
+| 27/04/2022 | Eva |
+| 04/05/2022 | Alex - HPC/Cloud primer |
+| 11/05/2022 | Ira |
+| 18/05/2022 | Alex - Containerisation |
+| 25/05/2022 | Giulia |
+| 01/06/2022 | Chris - Cloud ecosystem |
+| 08/06/2022 | Jake |
+| 15/06/2022 | Marc - Modelling |
+| 22/06/2022 | Marc |
+| 29/06/2022 | Nobby - Web technology |
 
 
 ### Past LMs
