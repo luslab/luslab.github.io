@@ -16,7 +16,7 @@ order: 2
 | 23/02/2022 | Marc - CPUs/CPU Instructions/Computer operation |
 | 02/03/2022 | Koustav |
 | 09/03/2022 | Mike - Memory/Storage |
-| 09/03/2022 | JC - brief discussion of proposed papers |
+| 16/03/2022 | JC - brief discussion of proposed papers |
 | 23/03/2022 | Slava - Operating systems |
 | 30/03/2022 | Charlotte |
 
