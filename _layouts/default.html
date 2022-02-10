@@ -83,5 +83,17 @@
 				document.body.classList.toggle("nav-open");
 			});
 		</script>
+
+		<script>
+			Array.from(document.getElementsByClassName("youtube-video")).forEach(
+				function(element, index, array) {
+					element.innerHTML = (
+						"<iframe width=\"560\" height=\"315\" src=\"" +
+						element.getAttribute("src") +
+						"\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+					);
+				}
+			);
+		</script>
 	</body>
 </html>
