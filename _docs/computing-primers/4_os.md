@@ -1,12 +1,12 @@
 ---
-title: "4 Operating Systems"
+title: "5 Operating Systems"
 category: Computing Primers
-order: 4
+order: 5
 ---
 
 <div>
     <object
-        data='../../assets/pdf/4_os.pdf'
+        data='../../assets/pdf/5_os.pdf'
         type="application/pdf"
         width="800"
         height="600"
