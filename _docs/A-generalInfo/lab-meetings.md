@@ -3,6 +3,25 @@ title: Lab meetings
 category: General Info
 order: 2
 ---
+
+
+## 2022 Q2
+Location: GF MR2 (unless announced otherwise) & Zoom (link pinned in luslab-tech slack channel)
+
+| Date | Presenting |
+|-|-|
+| 06/04/2022 | Koustav - Programming Languages Primer (assembler onwards) |
+| 13/04/2022 | Oli |
+| 20/04/2022 | Eva - Networking |
+| 04/05/2022 | Alex - HPC/Cloud primer |
+| 18/05/2022 | Alex - Containerisation |
+| 15/06/2022 | Chris - Cloud ecosystem |
+| 29/06/2022 | Marc - Modelling |
+| 13/07/2022 | Nobby - Web technology |
+
+
+### Past LMs
+
 ## 2022 Q1
 | Date | Presenting |
 |-|-|
@@ -19,27 +38,6 @@ order: 2
 | 16/03/2022 | JC - brief discussion of proposed papers |
 | 23/03/2022 | Slava - Operating systems |
 | 30/03/2022 | Charlotte |
-
-
-## 2022 Q2
-| Date | Presenting |
-|-|-|
-| 06/04/2022 | Koustav - Programming Languages Primer (assembler onwards) |
-| 13/04/2022 | Oli |
-| 20/04/2022 | Eva - Networking |
-| 27/04/2022 | Eva |
-| 04/05/2022 | Alex - HPC/Cloud primer |
-| 11/05/2022 | Ira |
-| 18/05/2022 | Alex - Containerisation |
-| 25/05/2022 | Giulia |
-| 01/06/2022 | Chris - Cloud ecosystem |
-| 08/06/2022 | Jake |
-| 15/06/2022 | Marc - Modelling |
-| 22/06/2022 | Marc |
-| 29/06/2022 | Nobby - Web technology |
-
-
-### Past LMs
 
 ## 2021 Q4
 | Date | Presenting |
